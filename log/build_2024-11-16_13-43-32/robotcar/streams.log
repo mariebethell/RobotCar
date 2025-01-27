@@ -1,0 +1,69 @@
+[0.154s] Invoking command in '/home/pi/Git/RobotCar/build/robotcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[0.798s] [ 33%] Built target motorDriverSubscriber
+[1.032s] [ 66%] Built target panTiltSubscriber
+[1.169s] [35m[1mConsolidate compiler generated dependencies of target controllerNode[0m
+[1.386s] [ 83%] [32mBuilding CXX object CMakeFiles/controllerNode.dir/src/controllerNode.cpp.o[0m
+[37.594s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[37.595s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[37.597s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[37.598s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[37.599s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[37.600s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[37.601s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[37.602s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[37.606s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[37.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[37.611s]                  from [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1[m[K:
+[37.612s] [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::publishTwist()[m[K’:
+[37.614s] [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+[37.618s]    56 |                 [01;31m[KRCLCPP_INFO[m[K(get_logger, "Event type: %d\n", this->event.type);
+[37.619s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[37.621s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[37.624s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[37.625s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[37.627s]                  from [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1[m[K:
+[37.628s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:143:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[37.629s]   143 |   [01;36m[Kget_logger[m[K() const;
+[37.632s]       |   [01;36m[K^~~~~~~~~~[m[K
+[37.633s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[37.635s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[37.636s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[37.641s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[37.644s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[37.646s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[37.647s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[37.649s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[37.650s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[37.651s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[37.654s]                  from [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1[m[K:
+[37.657s] [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[37.660s]    56 |                 [01;31m[KRCLCPP_INFO[m[K(get_logger, "Event type: %d\n", this->event.type);
+[37.662s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[37.663s] [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[37.664s]    56 |                 [01;31m[KRCLCPP_INFO[m[K(get_logger, "Event type: %d\n", this->event.type);
+[37.670s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[37.672s] [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[37.678s]    56 |                 [01;31m[KRCLCPP_INFO[m[K(get_logger, "Event type: %d\n", this->event.type);
+[37.679s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[37.684s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[37.686s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[37.691s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[37.698s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[37.707s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[37.709s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[37.711s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[37.713s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[37.714s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[37.716s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[37.718s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[37.719s]                  from [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1[m[K:
+[37.721s] [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:29:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[37.723s]    56 |                 RCLCPP_INFO([01;31m[Kg[m[Ket_logger, "Event type: %d\n", this->event.type);
+[37.725s]       |                             [01;31m[K^[m[K
+[37.726s] [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:29:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[37.727s]    56 |                 RCLCPP_INFO([01;31m[Kg[m[Ket_logger, "Event type: %d\n", this->event.type);
+[37.729s]       |                             [01;31m[K^[m[K
+[46.482s] gmake[2]: *** [CMakeFiles/controllerNode.dir/build.make:76: CMakeFiles/controllerNode.dir/src/controllerNode.cpp.o] Error 1
+[46.486s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/controllerNode.dir/all] Error 2
+[46.508s] gmake: *** [Makefile:146: all] Error 2
+[46.533s] Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target motorDriverSubscriber[0m
+[ 33%] Built target motorDriverSubscriber
+[35m[1mConsolidate compiler generated dependencies of target panTiltSubscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m

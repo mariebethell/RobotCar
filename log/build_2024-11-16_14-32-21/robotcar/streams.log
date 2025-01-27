@@ -1,0 +1,11 @@
+[0.136s] Invoking command in '/home/pi/Git/RobotCar/build/robotcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[0.739s] [ 33%] Built target motorDriverSubscriber
+[1.025s] [ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m
+[1.131s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KPCA9685.h: No such file or directory
+[1.145s]     1 | #include [01;31m[K<PCA9685.h>[m[K
+[1.147s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[1.148s] compilation terminated.
+[1.183s] gmake[2]: *** [CMakeFiles/panTiltSubscriber.dir/build.make:76: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o] Error 1
+[1.197s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/panTiltSubscriber.dir/all] Error 2
+[1.199s] gmake: *** [Makefile:146: all] Error 2
+[1.201s] Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4

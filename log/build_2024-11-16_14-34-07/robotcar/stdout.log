@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target controllerNode[0m
+[ 33%] Built target motorDriverSubscriber
+[ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m
+[ 83%] Built target controllerNode

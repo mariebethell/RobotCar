@@ -1,0 +1,63 @@
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1[m[K:
+[01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::publishTwist()[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+   56 |                 [01;31m[KRCLCPP_INFO[m[K(get_logger, "Event type: %d\n", this->event.type);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:143:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  143 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1[m[K:
+[01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |                 [01;31m[KRCLCPP_INFO[m[K(get_logger, "Event type: %d\n", this->event.type);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |                 [01;31m[KRCLCPP_INFO[m[K(get_logger, "Event type: %d\n", this->event.type);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |                 [01;31m[KRCLCPP_INFO[m[K(get_logger, "Event type: %d\n", this->event.type);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1[m[K:
+[01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:29:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   56 |                 RCLCPP_INFO([01;31m[Kg[m[Ket_logger, "Event type: %d\n", this->event.type);
+      |                             [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:29:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   56 |                 RCLCPP_INFO([01;31m[Kg[m[Ket_logger, "Event type: %d\n", this->event.type);
+      |                             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/controllerNode.dir/build.make:76: CMakeFiles/controllerNode.dir/src/controllerNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/controllerNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

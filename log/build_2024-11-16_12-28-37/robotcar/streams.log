@@ -1,0 +1,20 @@
+[0.132s] Invoking command in '/home/pi/Git/RobotCar/build/robotcar': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[0.591s] [35m[1mConsolidate compiler generated dependencies of target motorDriverSubscriber[0m
+[0.778s] [ 33%] Built target motorDriverSubscriber
+[0.879s] [35m[1mConsolidate compiler generated dependencies of target panTiltSubscriber[0m
+[1.066s] [ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m
+[37.258s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:17:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPanTilt::[m[K’ on member ‘[01m[KPanTilt[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[37.262s]    17 |     [01;31m[KPanTilt[m[K::PanTilt()
+[37.269s]       |     [01;31m[K^~~~~~~[m[K
+[37.270s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:30:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[37.271s]    30 | 
+[37.272s]       |  [01;31m[K^[m[K
+[37.273s]       |  [32m[K;[m[K
+[37.952s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:60:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[37.955s]    60 | 
+[37.956s]       |  [01;31m[K^[m[K
+[37.957s]       |  [32m[K;[m[K
+[65.178s] gmake[2]: *** [CMakeFiles/panTiltSubscriber.dir/build.make:76: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o] Error 1
+[65.180s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/panTiltSubscriber.dir/all] Error 2
+[65.190s] gmake: *** [Makefile:146: all] Error 2
+[65.206s] Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4

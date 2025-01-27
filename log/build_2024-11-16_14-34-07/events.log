@@ -1,0 +1,852 @@
+[0.000000] (-) TimerEvent: {}
+[0.005930] (robotcar) JobQueued: {'identifier': 'robotcar', 'dependencies': OrderedDict()}
+[0.011308] (robotcar) JobStarted: {'identifier': 'robotcar'}
+[0.099668] (-) TimerEvent: {}
+[0.131711] (robotcar) JobProgress: {'identifier': 'robotcar', 'progress': 'cmake'}
+[0.142319] (robotcar) JobProgress: {'identifier': 'robotcar', 'progress': 'build'}
+[0.150130] (robotcar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/Git/RobotCar/build/robotcar', '--', '-j4', '-l4'], 'cwd': '/home/pi/Git/RobotCar/build/robotcar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/pi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1631'), ('SYSTEMD_EXEC_PID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2955'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pi/Git/RobotCar/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pi'), ('JOURNAL_STREAM', '8:28771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pi-desktop:@/tmp/.ICE-unix/1865,unix/pi-desktop:/tmp/.ICE-unix/1865'), ('INVOCATION_ID', '71e0f4f0859a4258ad7e5b59306c91c6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e05c77a8ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pi/Git/RobotCar/install/robotcar:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi/Git/RobotCar/build/robotcar'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/Git/RobotCar/install/robotcar:/opt/ros/iron')]), 'shell': False}
+[0.198971] (-) TimerEvent: {}
+[0.300786] (-) TimerEvent: {}
+[0.403771] (-) TimerEvent: {}
+[0.510177] (-) TimerEvent: {}
+[0.612009] (-) TimerEvent: {}
+[0.714112] (-) TimerEvent: {}
+[0.814384] (robotcar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controllerNode\x1b[0m\n'}
+[0.817425] (-) TimerEvent: {}
+[0.855377] (robotcar) StdoutLine: {'line': b'[ 33%] Built target motorDriverSubscriber\n'}
+[0.919400] (-) TimerEvent: {}
+[0.975852] (robotcar) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o\x1b[0m\n'}
+[1.021122] (-) TimerEvent: {}
+[1.098646] (robotcar) StdoutLine: {'line': b'[ 83%] Built target controllerNode\n'}
+[1.121646] (-) TimerEvent: {}
+[1.223432] (-) TimerEvent: {}
+[1.325912] (-) TimerEvent: {}
+[1.427706] (-) TimerEvent: {}
+[1.529865] (-) TimerEvent: {}
+[1.631594] (-) TimerEvent: {}
+[1.732982] (-) TimerEvent: {}
+[1.834245] (-) TimerEvent: {}
+[1.935974] (-) TimerEvent: {}
+[2.039419] (-) TimerEvent: {}
+[2.141153] (-) TimerEvent: {}
+[2.243157] (-) TimerEvent: {}
+[2.344424] (-) TimerEvent: {}
+[2.445839] (-) TimerEvent: {}
+[2.548539] (-) TimerEvent: {}
+[2.650387] (-) TimerEvent: {}
+[2.752952] (-) TimerEvent: {}
+[2.856090] (-) TimerEvent: {}
+[2.957702] (-) TimerEvent: {}
+[3.060241] (-) TimerEvent: {}
+[3.166195] (-) TimerEvent: {}
+[3.267913] (-) TimerEvent: {}
+[3.369807] (-) TimerEvent: {}
+[3.471959] (-) TimerEvent: {}
+[3.573515] (-) TimerEvent: {}
+[3.668637] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:4:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.682676] (-) TimerEvent: {}
+[3.692745] (robotcar) StderrLine: {'line': b'    4 | \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K ServoUpDegree = 90;   // Servo Up Angle\n'}
+[3.694855] (robotcar) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.697306] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.698743] (robotcar) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstdint>\x1b[m\x1b[K\n'}
+[3.704221] (robotcar) StderrLine: {'line': b'    1 | // #include <PCA9685.h>\n'}
+[3.706256] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:5:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.714399] (robotcar) StderrLine: {'line': b'    5 | \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K ServoDownDegree = 90; // Servo Down Angle\n'}
+[3.717677] (robotcar) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.725107] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:5:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.732915] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint i2c_init(char*, unsigned char)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.734518] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:14:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KO_RDWR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.748949] (robotcar) StderrLine: {'line': b'   14 |     fd = open(i2c_dev, \x1b[01;31m\x1b[KO_RDWR\x1b[m\x1b[K);\n'}
+[3.750561] (robotcar) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.752176] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:14:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kopen\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.753594] (robotcar) StderrLine: {'line': b'   14 |     fd = \x1b[01;31m\x1b[Kopen\x1b[m\x1b[K(i2c_dev, O_RDWR);\n'}
+[3.762356] (robotcar) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.765954] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprintf\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.782437] (robotcar) StderrLine: {'line': b'   17 |         \x1b[01;31m\x1b[Kprintf\x1b[m\x1b[K("Failed to open the i2c bus\\n");\n'}
+[3.784797] (-) TimerEvent: {}
+[3.786255] (robotcar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.796039] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprintf\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdio>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdio>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.798048] (robotcar) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstdio>\x1b[m\x1b[K\n'}
+[3.800178] (robotcar) StderrLine: {'line': b'    1 | // #include <PCA9685.h>\n'}
+[3.802040] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:20:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KI2C_TENBIT\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.804338] (robotcar) StderrLine: {'line': b'   20 |     res = ioctl(fd, \x1b[01;31m\x1b[KI2C_TENBIT\x1b[m\x1b[K, 0);       // 7-bit mode\n'}
+[3.812036] (robotcar) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.820046] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:20:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kioctl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.822943] (robotcar) StderrLine: {'line': b'   20 |     res = \x1b[01;31m\x1b[Kioctl\x1b[m\x1b[K(fd, I2C_TENBIT, 0);       // 7-bit mode\n'}
+[3.825399] (robotcar) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.827295] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:21:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KI2C_SLAVE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.829869] (robotcar) StderrLine: {'line': b'   21 |     res = ioctl(fd, \x1b[01;31m\x1b[KI2C_SLAVE\x1b[m\x1b[K, i2c_addr); // Sets the slave device address\n'}
+[3.836845] (robotcar) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.841975] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint i2c_readNbyte(unsigned char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.850040] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:32:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.853918] (robotcar) StderrLine: {'line': b'   32 |     res = \x1b[01;31m\x1b[Kread\x1b[m\x1b[K(fd, buf, len);\n'}
+[3.863810] (robotcar) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.865788] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint i2c_writeNbyte(unsigned char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.867821] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:43:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.869425] (robotcar) StderrLine: {'line': b'   43 |     res = \x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K(fd, buf, len);\n'}
+[3.879724] (robotcar) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.881955] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.883466] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.885042] (-) TimerEvent: {}
+[3.886254] (robotcar) StderrLine: {'line': b'   51 | int i2c_readReg(\x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K reg_addr, uint8_t *data)\n'}
+[3.891813] (robotcar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.892973] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.893969] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.894965] (robotcar) StderrLine: {'line': b'   51 | int i2c_readReg(uint8_t reg_addr, \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K *data)\n'}
+[3.895784] (robotcar) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.896469] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.897124] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.897746] (robotcar) StderrLine: {'line': b'   51 | int i2c_readReg(uint8_t reg_addr, uint8_t *\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K)\n'}
+[3.898305] (robotcar) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.899168] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.905304] (robotcar) StderrLine: {'line': b'   51 | int i2c_readReg(uint8_t reg_addr, uint8_t *data\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[3.906975] (robotcar) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.907848] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.908572] (robotcar) StderrLine: {'line': b'   62 | int i2c_writeReg(\x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K reg_addr, uint8_t data)\n'}
+[3.909904] (robotcar) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.912494] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.914068] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.915386] (robotcar) StderrLine: {'line': b'   62 | int i2c_writeReg(uint8_t reg_addr, \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K data)\n'}
+[3.916626] (robotcar) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.917703] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.921949] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.925293] (robotcar) StderrLine: {'line': b'   62 | int i2c_writeReg(uint8_t reg_addr, uint8_t data\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[3.926767] (robotcar) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.928282] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid PCA9685_setPWMFreq(float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.929984] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:86:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.935869] (robotcar) StderrLine: {'line': b'   86 |     \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K oldmode;\n'}
+[3.937667] (robotcar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.939507] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:86:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.943086] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:87:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPCA9685_MODE1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.945567] (robotcar) StderrLine: {'line': b'   87 |     i2c_readReg(\x1b[01;31m\x1b[KPCA9685_MODE1\x1b[m\x1b[K, &oldmode);\n'}
+[3.947333] (robotcar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.948964] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:87:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koldmode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.950590] (robotcar) StderrLine: {'line': b'   87 |     i2c_readReg(PCA9685_MODE1, &\x1b[01;31m\x1b[Koldmode\x1b[m\x1b[K);\n'}
+[3.954180] (robotcar) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.957193] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:87:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki2c_readReg\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[3.959239] (robotcar) StderrLine: {'line': b'   87 |     i2c_readReg(PCA9685_MODE1, &oldmode\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.969918] (robotcar) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.972463] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:88:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knewmode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.974691] (robotcar) StderrLine: {'line': b'   88 |     uint8_t\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Knewmode\x1b[m\x1b[K = (oldmode & 0x7F) | 0x10;\n'}
+[3.980410] (robotcar) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[3.982185] (robotcar) StderrLine: {'line': b'      |            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.984629] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:89:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knewmode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.987127] (-) TimerEvent: {}
+[3.988239] (robotcar) StderrLine: {'line': b'   89 |     i2c_writeReg(PCA9685_MODE1, \x1b[01;31m\x1b[Knewmode\x1b[m\x1b[K);              // sleep\n'}
+[3.989698] (robotcar) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.995994] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:89:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki2c_writeReg\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[3.997112] (robotcar) StderrLine: {'line': b'   89 |     i2c_writeReg(PCA9685_MODE1, newmode\x1b[01;31m\x1b[K)\x1b[m\x1b[K;              // sleep\n'}
+[3.998085] (robotcar) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.999272] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:90:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPCA9685_PRESCALE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.000693] (robotcar) StderrLine: {'line': b'   90 |     i2c_writeReg(\x1b[01;31m\x1b[KPCA9685_PRESCALE\x1b[m\x1b[K, (uint8_t)prescale); // Set predivider\n'}
+[4.001744] (robotcar) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.002687] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:90:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kprescale\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.003769] (robotcar) StderrLine: {'line': b'   90 |     i2c_writeReg\x1b[34m\x1b[K(\x1b[m\x1b[KPCA9685_PRESCALE, (uint8_t)\x1b[01;31m\x1b[Kp\x1b[m\x1b[K\x1b[32m\x1b[Krescale\x1b[m\x1b[K); // Set predivider\n'}
+[4.004824] (robotcar) StderrLine: {'line': b'      |                 \x1b[34m\x1b[K~\x1b[m\x1b[K                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[4.013988] (robotcar) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.016981] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:90:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki2c_writeReg\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[4.018859] (robotcar) StderrLine: {'line': b'   90 |     \x1b[01;31m\x1b[Ki2c_writeReg(PCA9685_PRESCALE, (uint8_t)prescale\x1b[m\x1b[K); // Set predivider\n'}
+[4.021025] (robotcar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.022544] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:91:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki2c_writeReg\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[4.024404] (robotcar) StderrLine: {'line': b'   91 |     \x1b[01;31m\x1b[Ki2c_writeReg(PCA9685_MODE1, oldmode)\x1b[m\x1b[K;\n'}
+[4.025498] (robotcar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.026479] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:92:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.032201] (robotcar) StderrLine: {'line': b'   92 |     \x1b[01;31m\x1b[Kusleep\x1b[m\x1b[K(5000);\n'}
+[4.044006] (robotcar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.049537] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:93:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki2c_writeReg\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[4.056263] (robotcar) StderrLine: {'line': b'   93 |     i2c_writeReg(PCA9685_MODE1, oldmode | 0xa0\x1b[01;31m\x1b[K)\x1b[m\x1b[K; // Set the MODE1 register to turn on autoincrement\n'}
+[4.057759] (robotcar) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.062247] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:85:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kprescale\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.064140] (robotcar) StderrLine: {'line': b'   85 |     float \x1b[01;35m\x1b[Kprescale\x1b[m\x1b[K = (float)(prescaleval + 0.5);\n'}
+[4.065706] (robotcar) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.067829] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.069349] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[KPCA9685_setPWM\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[4.070193] (robotcar) StderrLine: {'line': b'  100 | void \x1b[01;31m\x1b[KPCA9685_setPWM\x1b[m\x1b[K(uint8_t num, uint16_t on, uint16_t off)\n'}
+[4.070877] (robotcar) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.071611] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.074958] (robotcar) StderrLine: {'line': b'  100 | void PCA9685_setPWM(\x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K num, uint16_t on, uint16_t off)\n'}
+[4.077046] (robotcar) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.079566] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.081681] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.083252] (robotcar) StderrLine: {'line': b'  100 | void PCA9685_setPWM(uint8_t num, \x1b[01;31m\x1b[Kuint16_t\x1b[m\x1b[K on, uint16_t off)\n'}
+[4.084114] (robotcar) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.088521] (-) TimerEvent: {}
+[4.089444] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.090623] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.092513] (robotcar) StderrLine: {'line': b'  100 | void PCA9685_setPWM(uint8_t num, uint16_t on, \x1b[01;31m\x1b[Kuint16_t\x1b[m\x1b[K off)\n'}
+[4.093969] (robotcar) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.095392] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.100905] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:112:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[KsetServoPulse\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[4.108462] (robotcar) StderrLine: {'line': b'  112 | void \x1b[01;31m\x1b[KsetServoPulse\x1b[m\x1b[K(uint8_t n, double pulse)\n'}
+[4.111790] (robotcar) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.113816] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:112:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.115045] (robotcar) StderrLine: {'line': b'  112 | void setServoPulse(\x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K n, double pulse)\n'}
+[4.116336] (robotcar) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.117694] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:112:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.119183] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:112:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.124333] (robotcar) StderrLine: {'line': b'  112 | void setServoPulse(uint8_t n, \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K pulse)\n'}
+[4.126007] (robotcar) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.130942] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[KsetServoDegree\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[4.132656] (robotcar) StderrLine: {'line': b'  127 | void \x1b[01;31m\x1b[KsetServoDegree\x1b[m\x1b[K(uint8_t n, uint8_t Degree)\n'}
+[4.133835] (robotcar) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.140737] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.143504] (robotcar) StderrLine: {'line': b'  127 | void setServoDegree(\x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K n, uint8_t Degree)\n'}
+[4.145573] (robotcar) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.146803] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.148292] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.150612] (robotcar) StderrLine: {'line': b'  127 | void setServoDegree(uint8_t n, \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K Degree)\n'}
+[4.152504] (robotcar) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.153903] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.159754] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint get_key_board_from_termios()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.161823] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:148:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kaggregate \xe2\x80\x98\x1b[01m\x1b[Kget_key_board_from_termios()::termios new_config\x1b[m\x1b[K\xe2\x80\x99 has incomplete type and cannot be defined\n'}
+[4.163372] (robotcar) StderrLine: {'line': b'  148 |     struct termios \x1b[01;31m\x1b[Knew_config\x1b[m\x1b[K;\n'}
+[4.165130] (robotcar) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.166599] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:149:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kaggregate \xe2\x80\x98\x1b[01m\x1b[Kget_key_board_from_termios()::termios old_config\x1b[m\x1b[K\xe2\x80\x99 has incomplete type and cannot be defined\n'}
+[4.172657] (robotcar) StderrLine: {'line': b'  149 |     struct termios \x1b[01;31m\x1b[Kold_config\x1b[m\x1b[K;\n'}
+[4.174693] (robotcar) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.178599] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:151:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktcgetattr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.180199] (robotcar) StderrLine: {'line': b'  151 |     \x1b[01;31m\x1b[Ktcgetattr\x1b[m\x1b[K(0, &old_config);\n'}
+[4.181459] (robotcar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.182574] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:153:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KICANON\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.183904] (robotcar) StderrLine: {'line': b'  153 |     new_config.c_lflag &= ~(\x1b[01;31m\x1b[KICANON\x1b[m\x1b[K | ECHO);\n'}
+[4.185705] (robotcar) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.191762] (-) TimerEvent: {}
+[4.192828] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:153:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KECHO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.194405] (robotcar) StderrLine: {'line': b'  153 |     new_config.c_lflag &= ~(ICANON | \x1b[01;31m\x1b[KECHO\x1b[m\x1b[K);\n'}
+[4.195724] (robotcar) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.197309] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:154:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTCSANOW\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.199158] (robotcar) StderrLine: {'line': b'  154 |     tcsetattr(0, \x1b[01;31m\x1b[KTCSANOW\x1b[m\x1b[K, &new_config);\n'}
+[4.200242] (robotcar) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.201212] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:154:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktcsetattr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.202367] (robotcar) StderrLine: {'line': b'  154 |     \x1b[01;31m\x1b[Ktcsetattr\x1b[m\x1b[K(0, TCSANOW, &new_config);\n'}
+[4.204897] (robotcar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.207288] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:155:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgetchar\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.210213] (robotcar) StderrLine: {'line': b'  155 |     key_value = \x1b[01;31m\x1b[Kgetchar\x1b[m\x1b[K();\n'}
+[4.216502] (robotcar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.217893] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:155:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgetchar\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdio>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdio>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.219375] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.220846] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.222250] (robotcar) StderrLine: {'line': b'  164 | int ServoDegreeIncrease(\x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K Channel, uint8_t Step)\n'}
+[4.239827] (robotcar) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.241836] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.244333] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.245734] (robotcar) StderrLine: {'line': b'  164 | int ServoDegreeIncrease(uint8_t Channel, \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K Step)\n'}
+[4.247698] (robotcar) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.249170] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.250544] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.251796] (robotcar) StderrLine: {'line': b'  164 | int ServoDegreeIncrease(uint8_t Channel, uint8_t Step\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.252901] (robotcar) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.254019] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.262335] (robotcar) StderrLine: {'line': b'  204 | int ServoDegreeDecrease(\x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K Channel, uint8_t Step)\n'}
+[4.264145] (robotcar) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.265362] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.266656] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.268775] (robotcar) StderrLine: {'line': b'  204 | int ServoDegreeDecrease(uint8_t Channel, \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K Step)\n'}
+[4.270269] (robotcar) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.276240] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdint>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdint>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.277788] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.279433] (robotcar) StderrLine: {'line': b'  204 | int ServoDegreeDecrease(uint8_t Channel, uint8_t Step\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.280461] (robotcar) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.281770] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid processKeyboardEvent()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.282969] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:249:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.288553] (robotcar) StderrLine: {'line': b'  249 |         \x1b[01;31m\x1b[Kusleep\x1b[m\x1b[K(100);\n'}
+[4.289418] (robotcar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.295546] (-) TimerEvent: {}
+[4.297307] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:250:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTCIOFLUSH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.299613] (robotcar) StderrLine: {'line': b'  250 |         tcflush(0, \x1b[01;31m\x1b[KTCIOFLUSH\x1b[m\x1b[K);\n'}
+[4.301890] (robotcar) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.304171] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:250:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktcflush\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.306118] (robotcar) StderrLine: {'line': b'  250 |         \x1b[01;31m\x1b[Ktcflush\x1b[m\x1b[K(0, TCIOFLUSH);\n'}
+[4.307780] (robotcar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.309212] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:252:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprintf\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.314146] (robotcar) StderrLine: {'line': b'  252 |         \x1b[01;31m\x1b[Kprintf\x1b[m\x1b[K("%d ", keyVal);\n'}
+[4.316043] (robotcar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.317152] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:252:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprintf\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstdio>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstdio>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.318212] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:265:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSERVO_UP_CH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.323729] (robotcar) StderrLine: {'line': b'  265 |                     ServoDegreeIncrease(\x1b[01;31m\x1b[KSERVO_UP_CH\x1b[m\x1b[K, STEP);\n'}
+[4.326432] (robotcar) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.329609] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:265:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTEP\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.336700] (robotcar) StderrLine: {'line': b'  265 |                     ServoDegreeIncrease(SERVO_UP_CH, \x1b[01;31m\x1b[KSTEP\x1b[m\x1b[K);\n'}
+[4.338347] (robotcar) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.339859] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:265:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDegreeIncrease\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[4.340992] (robotcar) StderrLine: {'line': b'  265 |                     ServoDegreeIncrease(SERVO_UP_CH, STEP\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.342235] (robotcar) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.348210] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:268:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDegreeDecrease\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[4.349595] (robotcar) StderrLine: {'line': b'  268 |                     \x1b[01;31m\x1b[KServoDegreeDecrease(SERVO_UP_CH, STEP)\x1b[m\x1b[K;\n'}
+[4.351965] (robotcar) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.353846] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:271:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSERVO_DOWN_CH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.360900] (robotcar) StderrLine: {'line': b'  271 |                     ServoDegreeIncrease(\x1b[01;31m\x1b[KSERVO_DOWN_CH\x1b[m\x1b[K, STEP);\n'}
+[4.362865] (robotcar) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.364446] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:271:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDegreeIncrease\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[4.365753] (robotcar) StderrLine: {'line': b'  271 |                     \x1b[01;31m\x1b[KServoDegreeIncrease(SERVO_DOWN_CH, STEP)\x1b[m\x1b[K;\n'}
+[4.371989] (robotcar) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.373015] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:274:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDegreeDecrease\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[4.373995] (robotcar) StderrLine: {'line': b'  274 |                     \x1b[01;31m\x1b[KServoDegreeDecrease(SERVO_DOWN_CH, STEP)\x1b[m\x1b[K;\n'}
+[4.374849] (robotcar) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.396313] (-) TimerEvent: {}
+[4.498970] (-) TimerEvent: {}
+[4.600422] (-) TimerEvent: {}
+[4.702063] (-) TimerEvent: {}
+[4.803936] (-) TimerEvent: {}
+[4.906164] (-) TimerEvent: {}
+[5.007992] (-) TimerEvent: {}
+[5.109709] (-) TimerEvent: {}
+[5.211627] (-) TimerEvent: {}
+[5.314550] (-) TimerEvent: {}
+[5.416775] (-) TimerEvent: {}
+[5.518589] (-) TimerEvent: {}
+[5.620020] (-) TimerEvent: {}
+[5.721986] (-) TimerEvent: {}
+[5.823714] (-) TimerEvent: {}
+[5.926683] (-) TimerEvent: {}
+[6.030277] (-) TimerEvent: {}
+[6.132702] (-) TimerEvent: {}
+[6.236817] (-) TimerEvent: {}
+[6.339721] (-) TimerEvent: {}
+[6.441866] (-) TimerEvent: {}
+[6.545155] (-) TimerEvent: {}
+[6.648013] (-) TimerEvent: {}
+[6.750029] (-) TimerEvent: {}
+[6.852038] (-) TimerEvent: {}
+[6.954932] (-) TimerEvent: {}
+[7.057503] (-) TimerEvent: {}
+[7.159699] (-) TimerEvent: {}
+[7.261924] (-) TimerEvent: {}
+[7.363591] (-) TimerEvent: {}
+[7.465282] (-) TimerEvent: {}
+[7.567377] (-) TimerEvent: {}
+[7.669062] (-) TimerEvent: {}
+[7.771239] (-) TimerEvent: {}
+[7.873361] (-) TimerEvent: {}
+[7.974852] (-) TimerEvent: {}
+[8.077578] (-) TimerEvent: {}
+[8.179272] (-) TimerEvent: {}
+[8.280775] (-) TimerEvent: {}
+[8.383123] (-) TimerEvent: {}
+[8.485157] (-) TimerEvent: {}
+[8.587596] (-) TimerEvent: {}
+[8.691147] (-) TimerEvent: {}
+[8.793388] (-) TimerEvent: {}
+[8.895161] (-) TimerEvent: {}
+[8.996531] (-) TimerEvent: {}
+[9.098529] (-) TimerEvent: {}
+[9.200893] (-) TimerEvent: {}
+[9.302483] (-) TimerEvent: {}
+[9.404127] (-) TimerEvent: {}
+[9.505494] (-) TimerEvent: {}
+[9.607456] (-) TimerEvent: {}
+[9.710560] (-) TimerEvent: {}
+[9.813681] (-) TimerEvent: {}
+[9.915903] (-) TimerEvent: {}
+[10.018110] (-) TimerEvent: {}
+[10.119950] (-) TimerEvent: {}
+[10.222526] (-) TimerEvent: {}
+[10.324811] (-) TimerEvent: {}
+[10.427461] (-) TimerEvent: {}
+[10.530867] (-) TimerEvent: {}
+[10.633864] (-) TimerEvent: {}
+[10.736807] (-) TimerEvent: {}
+[10.838867] (-) TimerEvent: {}
+[10.941525] (-) TimerEvent: {}
+[11.043647] (-) TimerEvent: {}
+[11.146282] (-) TimerEvent: {}
+[11.248612] (-) TimerEvent: {}
+[11.350893] (-) TimerEvent: {}
+[11.453942] (-) TimerEvent: {}
+[11.555554] (-) TimerEvent: {}
+[11.657730] (-) TimerEvent: {}
+[11.759359] (-) TimerEvent: {}
+[11.861236] (-) TimerEvent: {}
+[11.963299] (-) TimerEvent: {}
+[12.066144] (-) TimerEvent: {}
+[12.168214] (-) TimerEvent: {}
+[12.270025] (-) TimerEvent: {}
+[12.374842] (-) TimerEvent: {}
+[12.476386] (-) TimerEvent: {}
+[12.578890] (-) TimerEvent: {}
+[12.681143] (-) TimerEvent: {}
+[12.782690] (-) TimerEvent: {}
+[12.885309] (-) TimerEvent: {}
+[12.987278] (-) TimerEvent: {}
+[13.089549] (-) TimerEvent: {}
+[13.192104] (-) TimerEvent: {}
+[13.294729] (-) TimerEvent: {}
+[13.397113] (-) TimerEvent: {}
+[13.498648] (-) TimerEvent: {}
+[13.600149] (-) TimerEvent: {}
+[13.701988] (-) TimerEvent: {}
+[13.804780] (-) TimerEvent: {}
+[13.907286] (-) TimerEvent: {}
+[14.009322] (-) TimerEvent: {}
+[14.112717] (-) TimerEvent: {}
+[14.217366] (-) TimerEvent: {}
+[14.320147] (-) TimerEvent: {}
+[14.423345] (-) TimerEvent: {}
+[14.526803] (-) TimerEvent: {}
+[14.631563] (-) TimerEvent: {}
+[14.734482] (-) TimerEvent: {}
+[14.837116] (-) TimerEvent: {}
+[14.941046] (-) TimerEvent: {}
+[15.044361] (-) TimerEvent: {}
+[15.146739] (-) TimerEvent: {}
+[15.249049] (-) TimerEvent: {}
+[15.352998] (-) TimerEvent: {}
+[15.455249] (-) TimerEvent: {}
+[15.558118] (-) TimerEvent: {}
+[15.661155] (-) TimerEvent: {}
+[15.763807] (-) TimerEvent: {}
+[15.868928] (-) TimerEvent: {}
+[15.973082] (-) TimerEvent: {}
+[16.075806] (-) TimerEvent: {}
+[16.179747] (-) TimerEvent: {}
+[16.281839] (-) TimerEvent: {}
+[16.383221] (-) TimerEvent: {}
+[16.485193] (-) TimerEvent: {}
+[16.588120] (-) TimerEvent: {}
+[16.689877] (-) TimerEvent: {}
+[16.792247] (-) TimerEvent: {}
+[16.899917] (-) TimerEvent: {}
+[17.003860] (-) TimerEvent: {}
+[17.106238] (-) TimerEvent: {}
+[17.208940] (-) TimerEvent: {}
+[17.311089] (-) TimerEvent: {}
+[17.413128] (-) TimerEvent: {}
+[17.514379] (-) TimerEvent: {}
+[17.615860] (-) TimerEvent: {}
+[17.717950] (-) TimerEvent: {}
+[17.820432] (-) TimerEvent: {}
+[17.923356] (-) TimerEvent: {}
+[18.024717] (-) TimerEvent: {}
+[18.126405] (-) TimerEvent: {}
+[18.228255] (-) TimerEvent: {}
+[18.330436] (-) TimerEvent: {}
+[18.434208] (-) TimerEvent: {}
+[18.536471] (-) TimerEvent: {}
+[18.638528] (-) TimerEvent: {}
+[18.741294] (-) TimerEvent: {}
+[18.844420] (-) TimerEvent: {}
+[18.947310] (-) TimerEvent: {}
+[19.051367] (-) TimerEvent: {}
+[19.153959] (-) TimerEvent: {}
+[19.256875] (-) TimerEvent: {}
+[19.358728] (-) TimerEvent: {}
+[19.460556] (-) TimerEvent: {}
+[19.564150] (-) TimerEvent: {}
+[19.667095] (-) TimerEvent: {}
+[19.769554] (-) TimerEvent: {}
+[19.871379] (-) TimerEvent: {}
+[19.973913] (-) TimerEvent: {}
+[20.075566] (-) TimerEvent: {}
+[20.177721] (-) TimerEvent: {}
+[20.279596] (-) TimerEvent: {}
+[20.381121] (-) TimerEvent: {}
+[20.482583] (-) TimerEvent: {}
+[20.584194] (-) TimerEvent: {}
+[20.686125] (-) TimerEvent: {}
+[20.787751] (-) TimerEvent: {}
+[20.889473] (-) TimerEvent: {}
+[20.997135] (-) TimerEvent: {}
+[21.101098] (-) TimerEvent: {}
+[21.203259] (-) TimerEvent: {}
+[21.305048] (-) TimerEvent: {}
+[21.407341] (-) TimerEvent: {}
+[21.509047] (-) TimerEvent: {}
+[21.612581] (-) TimerEvent: {}
+[21.715748] (-) TimerEvent: {}
+[21.818396] (-) TimerEvent: {}
+[21.921576] (-) TimerEvent: {}
+[22.024168] (-) TimerEvent: {}
+[22.126408] (-) TimerEvent: {}
+[22.228459] (-) TimerEvent: {}
+[22.330651] (-) TimerEvent: {}
+[22.433210] (-) TimerEvent: {}
+[22.536001] (-) TimerEvent: {}
+[22.638408] (-) TimerEvent: {}
+[22.741304] (-) TimerEvent: {}
+[22.843590] (-) TimerEvent: {}
+[22.945110] (-) TimerEvent: {}
+[23.046569] (-) TimerEvent: {}
+[23.148192] (-) TimerEvent: {}
+[23.249816] (-) TimerEvent: {}
+[23.351778] (-) TimerEvent: {}
+[23.453376] (-) TimerEvent: {}
+[23.554949] (-) TimerEvent: {}
+[23.656523] (-) TimerEvent: {}
+[23.758290] (-) TimerEvent: {}
+[23.860034] (-) TimerEvent: {}
+[23.961586] (-) TimerEvent: {}
+[24.062885] (-) TimerEvent: {}
+[24.164266] (-) TimerEvent: {}
+[24.265903] (-) TimerEvent: {}
+[24.368854] (-) TimerEvent: {}
+[24.471713] (-) TimerEvent: {}
+[24.575167] (-) TimerEvent: {}
+[24.678245] (-) TimerEvent: {}
+[24.781333] (-) TimerEvent: {}
+[24.884242] (-) TimerEvent: {}
+[24.986827] (-) TimerEvent: {}
+[25.089881] (-) TimerEvent: {}
+[25.191912] (-) TimerEvent: {}
+[25.294014] (-) TimerEvent: {}
+[25.395428] (-) TimerEvent: {}
+[25.498123] (-) TimerEvent: {}
+[25.601225] (-) TimerEvent: {}
+[25.703345] (-) TimerEvent: {}
+[25.805780] (-) TimerEvent: {}
+[25.908865] (-) TimerEvent: {}
+[26.010634] (-) TimerEvent: {}
+[26.113395] (-) TimerEvent: {}
+[26.215575] (-) TimerEvent: {}
+[26.317808] (-) TimerEvent: {}
+[26.420367] (-) TimerEvent: {}
+[26.523176] (-) TimerEvent: {}
+[26.626753] (-) TimerEvent: {}
+[26.728787] (-) TimerEvent: {}
+[26.831368] (-) TimerEvent: {}
+[26.932951] (-) TimerEvent: {}
+[27.034576] (-) TimerEvent: {}
+[27.136639] (-) TimerEvent: {}
+[27.238333] (-) TimerEvent: {}
+[27.339874] (-) TimerEvent: {}
+[27.441399] (-) TimerEvent: {}
+[27.542865] (-) TimerEvent: {}
+[27.644349] (-) TimerEvent: {}
+[27.746306] (-) TimerEvent: {}
+[27.848116] (-) TimerEvent: {}
+[27.950195] (-) TimerEvent: {}
+[28.052201] (-) TimerEvent: {}
+[28.153785] (-) TimerEvent: {}
+[28.255716] (-) TimerEvent: {}
+[28.357677] (-) TimerEvent: {}
+[28.459693] (-) TimerEvent: {}
+[28.561827] (-) TimerEvent: {}
+[28.665047] (-) TimerEvent: {}
+[28.766732] (-) TimerEvent: {}
+[28.868618] (-) TimerEvent: {}
+[28.969862] (-) TimerEvent: {}
+[29.071454] (-) TimerEvent: {}
+[29.173003] (-) TimerEvent: {}
+[29.274740] (-) TimerEvent: {}
+[29.376366] (-) TimerEvent: {}
+[29.478048] (-) TimerEvent: {}
+[29.580050] (-) TimerEvent: {}
+[29.682420] (-) TimerEvent: {}
+[29.785593] (-) TimerEvent: {}
+[29.887682] (-) TimerEvent: {}
+[29.990314] (-) TimerEvent: {}
+[30.095289] (-) TimerEvent: {}
+[30.197048] (-) TimerEvent: {}
+[30.299665] (-) TimerEvent: {}
+[30.401672] (-) TimerEvent: {}
+[30.503258] (-) TimerEvent: {}
+[30.605265] (-) TimerEvent: {}
+[30.706699] (-) TimerEvent: {}
+[30.807886] (-) TimerEvent: {}
+[30.909095] (-) TimerEvent: {}
+[31.010977] (-) TimerEvent: {}
+[31.113282] (-) TimerEvent: {}
+[31.216460] (-) TimerEvent: {}
+[31.318658] (-) TimerEvent: {}
+[31.421001] (-) TimerEvent: {}
+[31.522799] (-) TimerEvent: {}
+[31.624389] (-) TimerEvent: {}
+[31.726214] (-) TimerEvent: {}
+[31.828003] (-) TimerEvent: {}
+[31.930171] (-) TimerEvent: {}
+[32.031538] (-) TimerEvent: {}
+[32.132862] (-) TimerEvent: {}
+[32.234209] (-) TimerEvent: {}
+[32.326644] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPanTilt::PanTilt()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.330072] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:308:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KI2C_ADDR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPI_I2C_ADDR\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[32.338379] (-) TimerEvent: {}
+[32.340612] (robotcar) StderrLine: {'line': b'  308 |         i2c_init(i2c_dev, \x1b[01;31m\x1b[KI2C_ADDR\x1b[m\x1b[K);\n'}
+[32.348743] (robotcar) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.350846] (robotcar) StderrLine: {'line': b'      |                           \x1b[32m\x1b[KPI_I2C_ADDR\x1b[m\x1b[K\n'}
+[32.401736] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:309:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMODE1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[32.403905] (robotcar) StderrLine: {'line': b'  309 |         i2c_writeReg(\x1b[01;31m\x1b[KMODE1\x1b[m\x1b[K, 0x80);\n'}
+[32.405456] (robotcar) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[32.406926] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:309:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki2c_writeReg\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[32.408609] (robotcar) StderrLine: {'line': b'  309 |         \x1b[01;31m\x1b[Ki2c_writeReg(MODE1, 0x80)\x1b[m\x1b[K;\n'}
+[32.418758] (robotcar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.439123] (-) TimerEvent: {}
+[32.474524] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:313:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSERVO_UP_CH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[32.476503] (robotcar) StderrLine: {'line': b'  313 |         setServoDegree(\x1b[01;31m\x1b[KSERVO_UP_CH\x1b[m\x1b[K, ServoUpDegree);\n'}
+[32.478768] (robotcar) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.539661] (-) TimerEvent: {}
+[32.561002] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:313:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoUpDegree\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[32.563867] (robotcar) StderrLine: {'line': b'  313 |         setServoDegree(SERVO_UP_CH, \x1b[01;31m\x1b[KServoUpDegree\x1b[m\x1b[K);\n'}
+[32.566008] (robotcar) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.639964] (-) TimerEvent: {}
+[32.649098] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:313:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsetServoDegree\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[32.650788] (robotcar) StderrLine: {'line': b'  313 |         \x1b[01;31m\x1b[KsetServoDegree\x1b[m\x1b[K(SERVO_UP_CH, ServoUpDegree);\n'}
+[32.652221] (robotcar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.735178] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:314:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSERVO_DOWN_CH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[32.737251] (robotcar) StderrLine: {'line': b'  314 |         setServoDegree(\x1b[01;31m\x1b[KSERVO_DOWN_CH\x1b[m\x1b[K, ServoDownDegree);\n'}
+[32.739222] (robotcar) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.740048] (-) TimerEvent: {}
+[32.822069] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:314:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDownDegree\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[32.824759] (robotcar) StderrLine: {'line': b'  314 |         setServoDegree(SERVO_DOWN_CH, \x1b[01;31m\x1b[KServoDownDegree\x1b[m\x1b[K);\n'}
+[32.826528] (robotcar) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.840702] (-) TimerEvent: {}
+[32.902940] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PanTilt::update(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.906345] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:322:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSERVO_UP_CH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[32.908363] (robotcar) StderrLine: {'line': b'  322 |             ServoDegreeIncrease(\x1b[01;31m\x1b[KSERVO_UP_CH\x1b[m\x1b[K, STEP);\n'}
+[32.909574] (robotcar) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.941090] (-) TimerEvent: {}
+[32.971974] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:322:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTEP\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[32.974429] (robotcar) StderrLine: {'line': b'  322 |             ServoDegreeIncrease(SERVO_UP_CH, \x1b[01;31m\x1b[KSTEP\x1b[m\x1b[K);\n'}
+[32.975865] (robotcar) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[32.981332] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:322:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDegreeIncrease\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[32.984655] (robotcar) StderrLine: {'line': b'  322 |             ServoDegreeIncrease(SERVO_UP_CH, STEP\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.991423] (robotcar) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[32.993586] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:325:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDegreeDecrease\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[32.998058] (robotcar) StderrLine: {'line': b'  325 |             \x1b[01;31m\x1b[KServoDegreeDecrease(SERVO_UP_CH, STEP)\x1b[m\x1b[K;\n'}
+[33.002194] (robotcar) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.041337] (-) TimerEvent: {}
+[33.059721] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:328:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSERVO_DOWN_CH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[33.061270] (robotcar) StderrLine: {'line': b'  328 |             ServoDegreeIncrease(\x1b[01;31m\x1b[KSERVO_DOWN_CH\x1b[m\x1b[K, STEP);\n'}
+[33.062428] (robotcar) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.063541] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:328:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDegreeIncrease\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[33.064306] (robotcar) StderrLine: {'line': b'  328 |             \x1b[01;31m\x1b[KServoDegreeIncrease(SERVO_DOWN_CH, STEP)\x1b[m\x1b[K;\n'}
+[33.064877] (robotcar) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.068312] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:331:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServoDegreeDecrease\x1b[m\x1b[K\xe2\x80\x99 cannot be used as a function\n'}
+[33.070392] (robotcar) StderrLine: {'line': b'  331 |             \x1b[01;31m\x1b[KServoDegreeDecrease(SERVO_DOWN_CH, STEP)\x1b[m\x1b[K;\n'}
+[33.072418] (robotcar) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.141870] (-) TimerEvent: {}
+[33.244252] (-) TimerEvent: {}
+[33.345485] (-) TimerEvent: {}
+[33.446905] (-) TimerEvent: {}
+[33.548507] (-) TimerEvent: {}
+[33.649923] (-) TimerEvent: {}
+[33.751316] (-) TimerEvent: {}
+[33.852849] (-) TimerEvent: {}
+[33.954805] (-) TimerEvent: {}
+[34.056298] (-) TimerEvent: {}
+[34.157988] (-) TimerEvent: {}
+[34.260689] (-) TimerEvent: {}
+[34.363432] (-) TimerEvent: {}
+[34.467997] (-) TimerEvent: {}
+[34.570522] (-) TimerEvent: {}
+[34.674181] (-) TimerEvent: {}
+[34.777048] (-) TimerEvent: {}
+[34.879597] (-) TimerEvent: {}
+[34.982606] (-) TimerEvent: {}
+[35.085600] (-) TimerEvent: {}
+[35.187685] (-) TimerEvent: {}
+[35.290116] (-) TimerEvent: {}
+[35.394017] (-) TimerEvent: {}
+[35.497446] (-) TimerEvent: {}
+[35.599342] (-) TimerEvent: {}
+[35.702249] (-) TimerEvent: {}
+[35.806293] (-) TimerEvent: {}
+[35.908881] (-) TimerEvent: {}
+[36.011363] (-) TimerEvent: {}
+[36.113150] (-) TimerEvent: {}
+[36.215469] (-) TimerEvent: {}
+[36.317675] (-) TimerEvent: {}
+[36.419205] (-) TimerEvent: {}
+[36.521180] (-) TimerEvent: {}
+[36.623842] (-) TimerEvent: {}
+[36.727524] (-) TimerEvent: {}
+[36.829993] (-) TimerEvent: {}
+[36.931650] (-) TimerEvent: {}
+[37.033800] (-) TimerEvent: {}
+[37.136110] (-) TimerEvent: {}
+[37.238744] (-) TimerEvent: {}
+[37.340496] (-) TimerEvent: {}
+[37.442890] (-) TimerEvent: {}
+[37.545103] (-) TimerEvent: {}
+[37.649266] (-) TimerEvent: {}
+[37.752351] (-) TimerEvent: {}
+[37.855855] (-) TimerEvent: {}
+[37.961733] (-) TimerEvent: {}
+[38.063278] (-) TimerEvent: {}
+[38.166183] (-) TimerEvent: {}
+[38.268770] (-) TimerEvent: {}
+[38.371317] (-) TimerEvent: {}
+[38.473642] (-) TimerEvent: {}
+[38.575492] (-) TimerEvent: {}
+[38.678219] (-) TimerEvent: {}
+[38.779932] (-) TimerEvent: {}
+[38.881917] (-) TimerEvent: {}
+[38.984234] (-) TimerEvent: {}
+[39.089154] (-) TimerEvent: {}
+[39.192008] (-) TimerEvent: {}
+[39.295491] (-) TimerEvent: {}
+[39.397562] (-) TimerEvent: {}
+[39.500947] (-) TimerEvent: {}
+[39.603875] (-) TimerEvent: {}
+[39.706269] (-) TimerEvent: {}
+[39.809473] (-) TimerEvent: {}
+[39.913608] (-) TimerEvent: {}
+[40.015872] (-) TimerEvent: {}
+[40.117146] (-) TimerEvent: {}
+[40.218772] (-) TimerEvent: {}
+[40.321291] (-) TimerEvent: {}
+[40.423339] (-) TimerEvent: {}
+[40.525481] (-) TimerEvent: {}
+[40.628290] (-) TimerEvent: {}
+[40.730048] (-) TimerEvent: {}
+[40.832460] (-) TimerEvent: {}
+[40.934831] (-) TimerEvent: {}
+[41.037196] (-) TimerEvent: {}
+[41.139678] (-) TimerEvent: {}
+[41.241351] (-) TimerEvent: {}
+[41.342849] (-) TimerEvent: {}
+[41.444391] (-) TimerEvent: {}
+[41.545929] (-) TimerEvent: {}
+[41.647368] (-) TimerEvent: {}
+[41.748937] (-) TimerEvent: {}
+[41.850777] (-) TimerEvent: {}
+[41.953608] (-) TimerEvent: {}
+[42.055275] (-) TimerEvent: {}
+[42.156550] (-) TimerEvent: {}
+[42.258395] (-) TimerEvent: {}
+[42.361237] (-) TimerEvent: {}
+[42.463147] (-) TimerEvent: {}
+[42.565573] (-) TimerEvent: {}
+[42.667332] (-) TimerEvent: {}
+[42.769769] (-) TimerEvent: {}
+[42.872484] (-) TimerEvent: {}
+[42.974552] (-) TimerEvent: {}
+[43.076550] (-) TimerEvent: {}
+[43.180760] (-) TimerEvent: {}
+[43.282642] (-) TimerEvent: {}
+[43.384664] (-) TimerEvent: {}
+[43.486664] (-) TimerEvent: {}
+[43.588321] (-) TimerEvent: {}
+[43.689833] (-) TimerEvent: {}
+[43.791552] (-) TimerEvent: {}
+[43.893528] (-) TimerEvent: {}
+[43.995298] (-) TimerEvent: {}
+[44.097410] (-) TimerEvent: {}
+[44.199067] (-) TimerEvent: {}
+[44.300827] (-) TimerEvent: {}
+[44.402915] (-) TimerEvent: {}
+[44.506104] (-) TimerEvent: {}
+[44.607924] (-) TimerEvent: {}
+[44.711490] (-) TimerEvent: {}
+[44.813740] (-) TimerEvent: {}
+[44.917190] (-) TimerEvent: {}
+[45.020226] (-) TimerEvent: {}
+[45.122079] (-) TimerEvent: {}
+[45.224752] (-) TimerEvent: {}
+[45.326928] (-) TimerEvent: {}
+[45.429105] (-) TimerEvent: {}
+[45.530547] (-) TimerEvent: {}
+[45.633404] (-) TimerEvent: {}
+[45.736354] (-) TimerEvent: {}
+[45.839155] (-) TimerEvent: {}
+[45.943550] (-) TimerEvent: {}
+[46.046667] (-) TimerEvent: {}
+[46.148509] (-) TimerEvent: {}
+[46.251705] (-) TimerEvent: {}
+[46.353368] (-) TimerEvent: {}
+[46.455569] (-) TimerEvent: {}
+[46.557765] (-) TimerEvent: {}
+[46.659745] (-) TimerEvent: {}
+[46.761175] (-) TimerEvent: {}
+[46.863306] (-) TimerEvent: {}
+[46.964633] (-) TimerEvent: {}
+[47.066120] (-) TimerEvent: {}
+[47.167602] (-) TimerEvent: {}
+[47.269009] (-) TimerEvent: {}
+[47.370860] (-) TimerEvent: {}
+[47.472275] (-) TimerEvent: {}
+[47.573767] (-) TimerEvent: {}
+[47.675719] (-) TimerEvent: {}
+[47.777744] (-) TimerEvent: {}
+[47.879428] (-) TimerEvent: {}
+[47.981468] (-) TimerEvent: {}
+[48.082930] (-) TimerEvent: {}
+[48.184737] (-) TimerEvent: {}
+[48.286484] (-) TimerEvent: {}
+[48.388748] (-) TimerEvent: {}
+[48.491364] (-) TimerEvent: {}
+[48.593282] (-) TimerEvent: {}
+[48.695669] (-) TimerEvent: {}
+[48.797580] (-) TimerEvent: {}
+[48.898984] (-) TimerEvent: {}
+[49.000690] (-) TimerEvent: {}
+[49.102324] (-) TimerEvent: {}
+[49.204985] (-) TimerEvent: {}
+[49.307553] (-) TimerEvent: {}
+[49.409826] (-) TimerEvent: {}
+[49.513684] (-) TimerEvent: {}
+[49.616034] (-) TimerEvent: {}
+[49.719317] (-) TimerEvent: {}
+[49.822019] (-) TimerEvent: {}
+[49.923739] (-) TimerEvent: {}
+[50.024903] (-) TimerEvent: {}
+[50.126732] (-) TimerEvent: {}
+[50.228259] (-) TimerEvent: {}
+[50.330459] (-) TimerEvent: {}
+[50.431774] (-) TimerEvent: {}
+[50.533072] (-) TimerEvent: {}
+[50.634580] (-) TimerEvent: {}
+[50.736642] (-) TimerEvent: {}
+[50.839307] (-) TimerEvent: {}
+[50.941685] (-) TimerEvent: {}
+[51.045850] (-) TimerEvent: {}
+[51.148832] (-) TimerEvent: {}
+[51.250293] (-) TimerEvent: {}
+[51.351808] (-) TimerEvent: {}
+[51.453138] (-) TimerEvent: {}
+[51.554607] (-) TimerEvent: {}
+[51.655989] (-) TimerEvent: {}
+[51.757365] (-) TimerEvent: {}
+[51.860869] (-) TimerEvent: {}
+[51.962232] (-) TimerEvent: {}
+[52.063929] (-) TimerEvent: {}
+[52.166096] (-) TimerEvent: {}
+[52.268195] (-) TimerEvent: {}
+[52.370565] (-) TimerEvent: {}
+[52.472149] (-) TimerEvent: {}
+[52.573896] (-) TimerEvent: {}
+[52.675599] (-) TimerEvent: {}
+[52.778148] (-) TimerEvent: {}
+[52.880676] (-) TimerEvent: {}
+[52.982689] (-) TimerEvent: {}
+[53.084887] (-) TimerEvent: {}
+[53.186848] (-) TimerEvent: {}
+[53.288614] (-) TimerEvent: {}
+[53.391202] (-) TimerEvent: {}
+[53.494933] (-) TimerEvent: {}
+[53.598488] (-) TimerEvent: {}
+[53.699850] (-) TimerEvent: {}
+[53.801106] (-) TimerEvent: {}
+[53.902284] (-) TimerEvent: {}
+[54.003488] (-) TimerEvent: {}
+[54.104704] (-) TimerEvent: {}
+[54.206281] (-) TimerEvent: {}
+[54.308881] (-) TimerEvent: {}
+[54.411210] (-) TimerEvent: {}
+[54.514065] (-) TimerEvent: {}
+[54.616175] (-) TimerEvent: {}
+[54.719246] (-) TimerEvent: {}
+[54.821921] (-) TimerEvent: {}
+[54.924098] (-) TimerEvent: {}
+[55.026507] (-) TimerEvent: {}
+[55.129234] (-) TimerEvent: {}
+[55.232015] (-) TimerEvent: {}
+[55.334880] (-) TimerEvent: {}
+[55.436532] (-) TimerEvent: {}
+[55.537880] (-) TimerEvent: {}
+[55.641370] (-) TimerEvent: {}
+[55.743563] (-) TimerEvent: {}
+[55.845619] (-) TimerEvent: {}
+[55.948164] (-) TimerEvent: {}
+[56.050913] (-) TimerEvent: {}
+[56.153911] (-) TimerEvent: {}
+[56.257633] (-) TimerEvent: {}
+[56.355741] (robotcar) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/panTiltSubscriber.dir/build.make:76: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o] Error 1\n'}
+[56.357762] (-) TimerEvent: {}
+[56.360287] (robotcar) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/panTiltSubscriber.dir/all] Error 2\n'}
+[56.365113] (robotcar) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[56.375645] (robotcar) CommandEnded: {'returncode': 2}
+[56.458300] (-) TimerEvent: {}
+[56.560318] (-) TimerEvent: {}
+[56.661529] (-) TimerEvent: {}
+[56.763115] (-) TimerEvent: {}
+[56.811438] (robotcar) JobEnded: {'identifier': 'robotcar', 'rc': 2}
+[56.830906] (-) EventReactorShutdown: {}

@@ -1,0 +1,104 @@
+[1.579s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'robotcar']
+[1.581s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robotcar'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff85e61d20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff85f7e350>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff85f7e350>>, mixin_verb=('build',))
+[4.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.403s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/Git/RobotCar'
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.589s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'robotcar'
+[4.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.993s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/Git/RobotCar/install
+[5.007s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/iron
+[5.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.700s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'cmake_args' from command line to 'None'
+[5.701s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'cmake_target' from command line to 'None'
+[5.702s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.702s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'cmake_clean_cache' from command line to 'False'
+[5.703s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'cmake_clean_first' from command line to 'False'
+[5.704s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'cmake_force_configure' from command line to 'False'
+[5.704s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'ament_cmake_args' from command line to 'None'
+[5.705s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'catkin_cmake_args' from command line to 'None'
+[5.706s] Level 5:colcon.colcon_core.verb:set package 'robotcar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.707s] DEBUG:colcon.colcon_core.verb:Building package 'robotcar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Git/RobotCar/build/robotcar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Git/RobotCar/install/robotcar', 'merge_install': False, 'path': '/home/pi/Git/RobotCar', 'symlink_install': False, 'test_result_base': None}
+[5.710s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.726s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/Git/RobotCar' with build type 'ament_cmake'
+[5.730s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/Git/RobotCar'
+[5.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Git/RobotCar/build/robotcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[64.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[64.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Git/RobotCar/build/robotcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/pi/Git/RobotCar/build/robotcar
+[64.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotcar)
+[64.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/pi/Git/RobotCar/build/robotcar
+[64.915s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar' for CMake module files
+[64.923s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar' for CMake config files
+[64.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotcar', 'cmake_prefix_path')
+[64.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/hook/cmake_prefix_path.ps1'
+[64.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/hook/cmake_prefix_path.dsv'
+[64.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/hook/cmake_prefix_path.sh'
+[64.972s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/lib'
+[64.973s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/bin'
+[64.974s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/lib/pkgconfig/robotcar.pc'
+[64.976s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/lib/python3.10/site-packages'
+[64.980s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/bin'
+[64.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.ps1'
+[64.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.dsv'
+[65.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.sh'
+[65.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.bash'
+[65.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.zsh'
+[65.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Git/RobotCar/install/robotcar/share/colcon-core/packages/robotcar)
+[65.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotcar)
+[65.405s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar' for CMake module files
+[65.412s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar' for CMake config files
+[65.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotcar', 'cmake_prefix_path')
+[65.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/hook/cmake_prefix_path.ps1'
+[65.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/hook/cmake_prefix_path.dsv'
+[65.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/hook/cmake_prefix_path.sh'
+[65.445s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/lib'
+[65.448s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/bin'
+[65.450s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/lib/pkgconfig/robotcar.pc'
+[65.453s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/lib/python3.10/site-packages'
+[65.456s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Git/RobotCar/install/robotcar/bin'
+[65.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.ps1'
+[65.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.dsv'
+[65.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.sh'
+[65.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.bash'
+[65.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.zsh'
+[65.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Git/RobotCar/install/robotcar/share/colcon-core/packages/robotcar)
+[65.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[65.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[65.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[65.507s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[65.576s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[65.577s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[65.578s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[65.727s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[65.729s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Git/RobotCar/install/local_setup.ps1'
+[65.736s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/Git/RobotCar/install/_local_setup_util_ps1.py'
+[65.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Git/RobotCar/install/setup.ps1'
+[65.755s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Git/RobotCar/install/local_setup.sh'
+[65.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/Git/RobotCar/install/_local_setup_util_sh.py'
+[65.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Git/RobotCar/install/setup.sh'
+[65.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Git/RobotCar/install/local_setup.bash'
+[65.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Git/RobotCar/install/setup.bash'
+[65.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Git/RobotCar/install/local_setup.zsh'
+[65.793s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Git/RobotCar/install/setup.zsh'

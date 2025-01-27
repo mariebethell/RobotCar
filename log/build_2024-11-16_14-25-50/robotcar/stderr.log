@@ -1,0 +1,21 @@
+/usr/bin/ld: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o: in function `PanTilt::PanTilt()':
+panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x40): undefined reference to `i2c_init(char*, unsigned char)'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x4c): undefined reference to `i2c_writeReg(unsigned char, unsigned char)'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x60): undefined reference to `PCA9685_setPWMFreq(float)'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x6c): undefined reference to `PCA9685_setPWMFreq(float)'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x70): undefined reference to `ServoUpDegree'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x74): undefined reference to `ServoUpDegree'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x84): undefined reference to `setServoDegree(unsigned char, unsigned char)'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x88): undefined reference to `ServoDownDegree'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x8c): undefined reference to `ServoDownDegree'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x9c): undefined reference to `setServoDegree(unsigned char, unsigned char)'
+/usr/bin/ld: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o: in function `PanTilt::update(int)':
+panTiltNode.cpp:(.text._ZN7PanTilt6updateEi[_ZN7PanTilt6updateEi]+0x64): undefined reference to `ServoDegreeIncrease(unsigned char, unsigned char)'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTilt6updateEi[_ZN7PanTilt6updateEi]+0x74): undefined reference to `ServoDegreeDecrease(unsigned char, unsigned char)'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTilt6updateEi[_ZN7PanTilt6updateEi]+0x84): undefined reference to `ServoDegreeIncrease(unsigned char, unsigned char)'
+/usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTilt6updateEi[_ZN7PanTilt6updateEi]+0x94): undefined reference to `ServoDegreeDecrease(unsigned char, unsigned char)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/panTiltSubscriber.dir/build.make:182: panTiltSubscriber] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/panTiltSubscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -2,6 +2,9 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include <SDL.h>
 
+#include <iostream>
+#include "PCA9685.h"
+
 const float MAX_JOYSTICK_VALUE = 32767.0;
 const float MIN_JOYSTICK_VALUE = -32767.0;
 
@@ -45,11 +48,23 @@ public:
         // while the node runs
         while (rclcpp::ok())
         {
+            // RCLCPP_INFO(get_logger(), "Number of buttons %d\n", SDL_JoystickNumButtons(joystick));
+
             // When an event is triggered on the joystick
             while (SDL_PollEvent(&this->event))
             {
+                RCLCPP_INFO(get_logger(), "Event type: %d\n", this->event.type);
+                for (int i = 0; i < SDL_JoystickNumButtons(joystick); i++)
+                {
+                    if (SDL_JoystickGetButton(joystick, i))
+                    {
+                        RCLCPP_INFO(get_logger(), "Button %d pressed\n", i);
+                    }
+                }
                 if (this->event.type == SDL_JOYAXISMOTION)
                 {
+                    RCLCPP_INFO(get_logger(), "joystick");
+                    RCLCPP_INFO(get_logger(), "event.jaxis.axis: %d\n", event.jaxis.axis);
                     if (event.jaxis.axis == 1) // Left stick horizontal
                     {
                         angular_velocity = SDL_JoystickGetAxis(joystick, 0) / MAX_JOYSTICK_VALUE;
@@ -68,10 +83,30 @@ public:
                 else if (event.type == SDL_JOYBUTTONDOWN)
                 {
                     bool button = SDL_JoystickGetButton(joystick, 5);
-
+                    RCLCPP_INFO(get_logger(), "button=%d", button);
                     if (button)
                     {
-                        twist_msg->linear.z = 1; // Borrowing unused variable to send button data
+                        // twist_msg->linear.z = 1; // Borrowing unused variable to send button data
+                    }
+                }
+                else if (event.type == SDL_JOYHATMOTION)
+                {
+                    RCLCPP_INFO(get_logger(), "D-pad hat value: %d\n", event.jhat.value);
+                    if (event.jhat.value == 1)
+                    { // D-pad up
+                        twist_msg->linear.z = 1;
+                    }
+                    else if (event.jhat.value == 4)
+                    { // D-pad down
+                        twist_msg->linear.z = 2;
+                    }
+                    else if (event.jhat.value == 8)
+                    { // D-pad left
+                        twist_msg->linear.z = 3;
+                    }
+                    else if (event.jhat.value == 2)
+                    { // D-pad right
+                        twist_msg->linear.z = 4;
                     }
                 }
                 else
@@ -84,6 +119,7 @@ public:
                 twist_msg->angular.z = angular_velocity;
                 RCLCPP_INFO(get_logger(), "linear.=%f, angular.=%f r1.=%f", twist_msg->linear.x, twist_msg->angular.z, twist_msg->linear.z);
                 this->publisher_->publish(*twist_msg);
+                twist_msg->linear.z = 0;
             }
         }
     }

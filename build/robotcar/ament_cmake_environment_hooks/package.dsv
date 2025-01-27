@@ -1,0 +1,4 @@
+source;share/robotcar/local_setup.bash
+source;share/robotcar/local_setup.dsv
+source;share/robotcar/local_setup.sh
+source;share/robotcar/local_setup.zsh

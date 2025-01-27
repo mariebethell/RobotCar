@@ -1,0 +1,25 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/controllerNode.dir/src/controllerNode.cpp.o[0m
+[ 50%] Built target motorDriverSubscriber
+[ 83%] Built target panTiltSubscriber
+[100%] [32m[1mLinking CXX executable controllerNode[0m
+[100%] Built target controllerNode
+-- Install configuration: ""
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/motorDriverSubscriber
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/controllerNode
+-- Set runtime path of "/home/pi/Git/RobotCar/install/robotcar/lib/robotcar/controllerNode" to ""
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/panTiltSubscriber
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/package_run_dependencies/robotcar
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/parent_prefix_path/robotcar
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/path.sh
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/path.dsv
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.bash
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.sh
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.zsh
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.dsv
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.dsv
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/packages/robotcar
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/cmake/robotcarConfig.cmake
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/cmake/robotcarConfig-version.cmake
+-- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.xml

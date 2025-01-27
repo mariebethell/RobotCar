@@ -1,0 +1,44 @@
+[0.066s] Invoking command in '/home/pi/Git/RobotCar/build/robotcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[0.440s] [ 33%] Built target motorDriverSubscriber
+[0.606s] [ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m
+[2.938s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kint i2c_readReg(uint8_t, uint8_t*)[m[K’:
+[2.941s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:53:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kres[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.941s]    53 |     int [01;35m[Kres[m[K = 0;
+[2.942s]       |         [01;35m[K^~~[m[K
+[2.951s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:56:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.952s]    56 | [01;35m[K}[m[K
+[2.953s]       | [01;35m[K^[m[K
+[2.954s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kint i2c_writeReg(uint8_t, uint8_t)[m[K’:
+[2.972s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:64:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.973s]    64 |     int res = 0, [01;35m[Ki[m[K;
+[2.974s]       |                  [01;35m[K^[m[K
+[49.552s] [ 66%] [32m[1mLinking CXX executable panTiltSubscriber[0m
+[52.187s] [ 66%] Built target panTiltSubscriber
+[52.259s] [35m[1mConsolidate compiler generated dependencies of target controllerNode[0m
+[52.385s] [ 83%] [32mBuilding CXX object CMakeFiles/controllerNode.dir/src/controllerNode.cpp.o[0m
+[85.280s] [100%] [32m[1mLinking CXX executable controllerNode[0m
+[87.292s] [100%] Built target controllerNode
+[87.362s] Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[87.687s] Invoking command in '/home/pi/Git/RobotCar/build/robotcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/pi/Git/RobotCar/build/robotcar
+[87.735s] -- Install configuration: ""
+[87.738s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/motorDriverSubscriber
+[87.741s] -- Installing: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/controllerNode
+[87.763s] -- Set runtime path of "/home/pi/Git/RobotCar/install/robotcar/lib/robotcar/controllerNode" to ""
+[87.766s] -- Installing: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/panTiltSubscriber
+[87.813s] -- Set runtime path of "/home/pi/Git/RobotCar/install/robotcar/lib/robotcar/panTiltSubscriber" to ""
+[87.814s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/package_run_dependencies/robotcar
+[87.816s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/parent_prefix_path/robotcar
+[87.817s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/ament_prefix_path.sh
+[87.821s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/ament_prefix_path.dsv
+[87.822s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/path.sh
+[87.824s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/path.dsv
+[87.828s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.bash
+[87.829s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.sh
+[87.831s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.zsh
+[87.833s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.dsv
+[87.834s] -- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.dsv
+[87.836s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/packages/robotcar
+[87.838s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/cmake/robotcarConfig.cmake
+[87.839s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/cmake/robotcarConfig-version.cmake
+[87.840s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.xml
+[87.856s] Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/pi/Git/RobotCar/build/robotcar

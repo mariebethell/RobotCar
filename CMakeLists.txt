@@ -49,12 +49,19 @@ add_executable(controllerNode src/controllerNode.cpp)
 ament_target_dependencies(controllerNode rclcpp geometry_msgs)
 target_link_libraries(controllerNode ${SDL_LIBRARY})
 
+add_executable(panTiltSubscriber src/panTiltNode.cpp)
+ament_target_dependencies(panTiltSubscriber rclcpp geometry_msgs)
+
 install(
   TARGETS motorDriverSubscriber
   DESTINATION lib/${PROJECT_NAME}
 )
 install(
   TARGETS controllerNode
+  DESTINATION lib/${PROJECT_NAME}
+)
+install(
+  TARGETS panTiltSubscriber
   DESTINATION lib/${PROJECT_NAME}
 )
 

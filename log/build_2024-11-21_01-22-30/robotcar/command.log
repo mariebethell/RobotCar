@@ -1,0 +1,4 @@
+Invoking command in '/home/pi/Git/RobotCar/build/robotcar': /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '0': /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+Invoking command in '/home/pi/Git/RobotCar/build/robotcar': /usr/bin/cmake --install /home/pi/Git/RobotCar/build/robotcar
+Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '0': /usr/bin/cmake --install /home/pi/Git/RobotCar/build/robotcar

@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target motorDriverSubscriber[0m
+[ 33%] Built target motorDriverSubscriber
+[35m[1mConsolidate compiler generated dependencies of target panTiltSubscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:17:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPanTilt::[m[K’ on member ‘[01m[KPanTilt[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   17 |     [01;31m[KPanTilt[m[K::PanTilt()
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:30:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   30 | 
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:60:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   60 | 
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/panTiltSubscriber.dir/build.make:76: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/panTiltSubscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

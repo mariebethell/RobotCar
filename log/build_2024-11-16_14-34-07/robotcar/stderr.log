@@ -1,0 +1,284 @@
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ does not name a type
+    4 | [01;31m[Kuint8_t[m[K ServoUpDegree = 90;   // Servo Up Angle
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+  +++ |+[32m[K#include <cstdint>[m[K
+    1 | // #include <PCA9685.h>
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ does not name a type
+    5 | [01;31m[Kuint8_t[m[K ServoDownDegree = 90; // Servo Down Angle
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:5:1:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kint i2c_init(char*, unsigned char)[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:14:24:[m[K [01;31m[Kerror: [m[K‘[01m[KO_RDWR[m[K’ was not declared in this scope
+   14 |     fd = open(i2c_dev, [01;31m[KO_RDWR[m[K);
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:14:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kopen[m[K’ was not declared in this scope
+   14 |     fd = [01;31m[Kopen[m[K(i2c_dev, O_RDWR);
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+   17 |         [01;31m[Kprintf[m[K("Failed to open the i2c bus\n");
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+  +++ |+[32m[K#include <cstdio>[m[K
+    1 | // #include <PCA9685.h>
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:20:21:[m[K [01;31m[Kerror: [m[K‘[01m[KI2C_TENBIT[m[K’ was not declared in this scope
+   20 |     res = ioctl(fd, [01;31m[KI2C_TENBIT[m[K, 0);       // 7-bit mode
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:20:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kioctl[m[K’ was not declared in this scope
+   20 |     res = [01;31m[Kioctl[m[K(fd, I2C_TENBIT, 0);       // 7-bit mode
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:21:21:[m[K [01;31m[Kerror: [m[K‘[01m[KI2C_SLAVE[m[K’ was not declared in this scope
+   21 |     res = ioctl(fd, [01;31m[KI2C_SLAVE[m[K, i2c_addr); // Sets the slave device address
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kint i2c_readNbyte(unsigned char*, int)[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:32:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kread[m[K’ was not declared in this scope
+   32 |     res = [01;31m[Kread[m[K(fd, buf, len);
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kint i2c_writeNbyte(unsigned char*, int)[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:43:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrite[m[K’ was not declared in this scope
+   43 |     res = [01;31m[Kwrite[m[K(fd, buf, len);
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K At global scope:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+   51 | int i2c_readReg([01;31m[Kuint8_t[m[K reg_addr, uint8_t *data)
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:17:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+   51 | int i2c_readReg(uint8_t reg_addr, [01;31m[Kuint8_t[m[K *data)
+      |                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:35:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+   51 | int i2c_readReg(uint8_t reg_addr, uint8_t *[01;31m[Kdata[m[K)
+      |                                            [01;31m[K^~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:51:48:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   51 | int i2c_readReg(uint8_t reg_addr, uint8_t *data[01;31m[K)[m[K
+      |                                                [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+   62 | int i2c_writeReg([01;31m[Kuint8_t[m[K reg_addr, uint8_t data)
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:18:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+   62 | int i2c_writeReg(uint8_t reg_addr, [01;31m[Kuint8_t[m[K data)
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:36:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:62:48:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   62 | int i2c_writeReg(uint8_t reg_addr, uint8_t data[01;31m[K)[m[K
+      |                                                [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kvoid PCA9685_setPWMFreq(float)[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+   86 |     [01;31m[Kuint8_t[m[K oldmode;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:86:5:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:87:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPCA9685_MODE1[m[K’ was not declared in this scope
+   87 |     i2c_readReg([01;31m[KPCA9685_MODE1[m[K, &oldmode);
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:87:33:[m[K [01;31m[Kerror: [m[K‘[01m[Koldmode[m[K’ was not declared in this scope
+   87 |     i2c_readReg(PCA9685_MODE1, &[01;31m[Koldmode[m[K);
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:87:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ki2c_readReg[m[K’ cannot be used as a function
+   87 |     i2c_readReg(PCA9685_MODE1, &oldmode[01;31m[K)[m[K;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:88:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Knewmode[m[K’
+   88 |     uint8_t[01;31m[K [m[K[32m[Knewmode[m[K = (oldmode & 0x7F) | 0x10;
+      |            [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |            [32m[K;[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:89:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knewmode[m[K’ was not declared in this scope
+   89 |     i2c_writeReg(PCA9685_MODE1, [01;31m[Knewmode[m[K);              // sleep
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:89:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ki2c_writeReg[m[K’ cannot be used as a function
+   89 |     i2c_writeReg(PCA9685_MODE1, newmode[01;31m[K)[m[K;              // sleep
+      |                                        [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:90:18:[m[K [01;31m[Kerror: [m[K‘[01m[KPCA9685_PRESCALE[m[K’ was not declared in this scope
+   90 |     i2c_writeReg([01;31m[KPCA9685_PRESCALE[m[K, (uint8_t)prescale); // Set predivider
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:90:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kprescale[m[K’
+   90 |     i2c_writeReg[34m[K([m[KPCA9685_PRESCALE, (uint8_t)[01;31m[Kp[m[K[32m[Krescale[m[K); // Set predivider
+      |                 [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |                                             [32m[K)[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:90:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ki2c_writeReg[m[K’ cannot be used as a function
+   90 |     [01;31m[Ki2c_writeReg(PCA9685_PRESCALE, (uint8_t)prescale[m[K); // Set predivider
+      |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:91:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ki2c_writeReg[m[K’ cannot be used as a function
+   91 |     [01;31m[Ki2c_writeReg(PCA9685_MODE1, oldmode)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kusleep[m[K’ was not declared in this scope
+   92 |     [01;31m[Kusleep[m[K(5000);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:93:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ki2c_writeReg[m[K’ cannot be used as a function
+   93 |     i2c_writeReg(PCA9685_MODE1, oldmode | 0xa0[01;31m[K)[m[K; // Set the MODE1 register to turn on autoincrement
+      |                                               [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:85:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprescale[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   85 |     float [01;35m[Kprescale[m[K = (float)(prescaleval + 0.5);
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K At global scope:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KPCA9685_setPWM[m[K’ declared void
+  100 | void [01;31m[KPCA9685_setPWM[m[K(uint8_t num, uint16_t on, uint16_t off)
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+  100 | void PCA9685_setPWM([01;31m[Kuint8_t[m[K num, uint16_t on, uint16_t off)
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:21:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16_t[m[K’ was not declared in this scope
+  100 | void PCA9685_setPWM(uint8_t num, [01;31m[Kuint16_t[m[K on, uint16_t off)
+      |                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:34:[m[K [01;36m[Knote: [m[K‘[01m[Kuint16_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16_t[m[K’ was not declared in this scope
+  100 | void PCA9685_setPWM(uint8_t num, uint16_t on, [01;31m[Kuint16_t[m[K off)
+      |                                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:100:47:[m[K [01;36m[Knote: [m[K‘[01m[Kuint16_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:112:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KsetServoPulse[m[K’ declared void
+  112 | void [01;31m[KsetServoPulse[m[K(uint8_t n, double pulse)
+      |      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:112:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+  112 | void setServoPulse([01;31m[Kuint8_t[m[K n, double pulse)
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:112:20:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:112:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+  112 | void setServoPulse(uint8_t n, [01;31m[Kdouble[m[K pulse)
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KsetServoDegree[m[K’ declared void
+  127 | void [01;31m[KsetServoDegree[m[K(uint8_t n, uint8_t Degree)
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+  127 | void setServoDegree([01;31m[Kuint8_t[m[K n, uint8_t Degree)
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:21:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+  127 | void setServoDegree(uint8_t n, [01;31m[Kuint8_t[m[K Degree)
+      |                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:127:32:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kint get_key_board_from_termios()[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:148:20:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[Kget_key_board_from_termios()::termios new_config[m[K’ has incomplete type and cannot be defined
+  148 |     struct termios [01;31m[Knew_config[m[K;
+      |                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:149:20:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[Kget_key_board_from_termios()::termios old_config[m[K’ has incomplete type and cannot be defined
+  149 |     struct termios [01;31m[Kold_config[m[K;
+      |                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcgetattr[m[K’ was not declared in this scope
+  151 |     [01;31m[Ktcgetattr[m[K(0, &old_config);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:153:29:[m[K [01;31m[Kerror: [m[K‘[01m[KICANON[m[K’ was not declared in this scope
+  153 |     new_config.c_lflag &= ~([01;31m[KICANON[m[K | ECHO);
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:153:38:[m[K [01;31m[Kerror: [m[K‘[01m[KECHO[m[K’ was not declared in this scope
+  153 |     new_config.c_lflag &= ~(ICANON | [01;31m[KECHO[m[K);
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:154:18:[m[K [01;31m[Kerror: [m[K‘[01m[KTCSANOW[m[K’ was not declared in this scope
+  154 |     tcsetattr(0, [01;31m[KTCSANOW[m[K, &new_config);
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcsetattr[m[K’ was not declared in this scope
+  154 |     [01;31m[Ktcsetattr[m[K(0, TCSANOW, &new_config);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:155:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetchar[m[K’ was not declared in this scope
+  155 |     key_value = [01;31m[Kgetchar[m[K();
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:155:17:[m[K [01;36m[Knote: [m[K‘[01m[Kgetchar[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K At global scope:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+  164 | int ServoDegreeIncrease([01;31m[Kuint8_t[m[K Channel, uint8_t Step)
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:25:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+  164 | int ServoDegreeIncrease(uint8_t Channel, [01;31m[Kuint8_t[m[K Step)
+      |                                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:42:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:164:54:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  164 | int ServoDegreeIncrease(uint8_t Channel, uint8_t Step[01;31m[K)[m[K
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+  204 | int ServoDegreeDecrease([01;31m[Kuint8_t[m[K Channel, uint8_t Step)
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:25:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+  204 | int ServoDegreeDecrease(uint8_t Channel, [01;31m[Kuint8_t[m[K Step)
+      |                                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:42:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:204:54:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  204 | int ServoDegreeDecrease(uint8_t Channel, uint8_t Step[01;31m[K)[m[K
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kvoid processKeyboardEvent()[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:249:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusleep[m[K’ was not declared in this scope
+  249 |         [01;31m[Kusleep[m[K(100);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:250:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTCIOFLUSH[m[K’ was not declared in this scope
+  250 |         tcflush(0, [01;31m[KTCIOFLUSH[m[K);
+      |                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:250:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcflush[m[K’ was not declared in this scope
+  250 |         [01;31m[Ktcflush[m[K(0, TCIOFLUSH);
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:252:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+  252 |         [01;31m[Kprintf[m[K("%d ", keyVal);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:252:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:265:41:[m[K [01;31m[Kerror: [m[K‘[01m[KSERVO_UP_CH[m[K’ was not declared in this scope
+  265 |                     ServoDegreeIncrease([01;31m[KSERVO_UP_CH[m[K, STEP);
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:265:54:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP[m[K’ was not declared in this scope
+  265 |                     ServoDegreeIncrease(SERVO_UP_CH, [01;31m[KSTEP[m[K);
+      |                                                      [01;31m[K^~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:265:58:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDegreeIncrease[m[K’ cannot be used as a function
+  265 |                     ServoDegreeIncrease(SERVO_UP_CH, STEP[01;31m[K)[m[K;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:268:40:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDegreeDecrease[m[K’ cannot be used as a function
+  268 |                     [01;31m[KServoDegreeDecrease(SERVO_UP_CH, STEP)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:271:41:[m[K [01;31m[Kerror: [m[K‘[01m[KSERVO_DOWN_CH[m[K’ was not declared in this scope
+  271 |                     ServoDegreeIncrease([01;31m[KSERVO_DOWN_CH[m[K, STEP);
+      |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:271:40:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDegreeIncrease[m[K’ cannot be used as a function
+  271 |                     [01;31m[KServoDegreeIncrease(SERVO_DOWN_CH, STEP)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:274:40:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDegreeDecrease[m[K’ cannot be used as a function
+  274 |                     [01;31m[KServoDegreeDecrease(SERVO_DOWN_CH, STEP)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In constructor ‘[01m[KPanTilt::PanTilt()[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:308:27:[m[K [01;31m[Kerror: [m[K‘[01m[KI2C_ADDR[m[K’ was not declared in this scope; did you mean ‘[01m[KPI_I2C_ADDR[m[K’?
+  308 |         i2c_init(i2c_dev, [01;31m[KI2C_ADDR[m[K);
+      |                           [01;31m[K^~~~~~~~[m[K
+      |                           [32m[KPI_I2C_ADDR[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:309:22:[m[K [01;31m[Kerror: [m[K‘[01m[KMODE1[m[K’ was not declared in this scope
+  309 |         i2c_writeReg([01;31m[KMODE1[m[K, 0x80);
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:309:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki2c_writeReg[m[K’ cannot be used as a function
+  309 |         [01;31m[Ki2c_writeReg(MODE1, 0x80)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:313:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSERVO_UP_CH[m[K’ was not declared in this scope
+  313 |         setServoDegree([01;31m[KSERVO_UP_CH[m[K, ServoUpDegree);
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:313:37:[m[K [01;31m[Kerror: [m[K‘[01m[KServoUpDegree[m[K’ was not declared in this scope
+  313 |         setServoDegree(SERVO_UP_CH, [01;31m[KServoUpDegree[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:313:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetServoDegree[m[K’ was not declared in this scope
+  313 |         [01;31m[KsetServoDegree[m[K(SERVO_UP_CH, ServoUpDegree);
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:314:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSERVO_DOWN_CH[m[K’ was not declared in this scope
+  314 |         setServoDegree([01;31m[KSERVO_DOWN_CH[m[K, ServoDownDegree);
+      |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:314:39:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDownDegree[m[K’ was not declared in this scope
+  314 |         setServoDegree(SERVO_DOWN_CH, [01;31m[KServoDownDegree[m[K);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In member function ‘[01m[Kvoid PanTilt::update(int)[m[K’:
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:322:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSERVO_UP_CH[m[K’ was not declared in this scope
+  322 |             ServoDegreeIncrease([01;31m[KSERVO_UP_CH[m[K, STEP);
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:322:46:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP[m[K’ was not declared in this scope
+  322 |             ServoDegreeIncrease(SERVO_UP_CH, [01;31m[KSTEP[m[K);
+      |                                              [01;31m[K^~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:322:50:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDegreeIncrease[m[K’ cannot be used as a function
+  322 |             ServoDegreeIncrease(SERVO_UP_CH, STEP[01;31m[K)[m[K;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:325:32:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDegreeDecrease[m[K’ cannot be used as a function
+  325 |             [01;31m[KServoDegreeDecrease(SERVO_UP_CH, STEP)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:328:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSERVO_DOWN_CH[m[K’ was not declared in this scope
+  328 |             ServoDegreeIncrease([01;31m[KSERVO_DOWN_CH[m[K, STEP);
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:328:32:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDegreeIncrease[m[K’ cannot be used as a function
+  328 |             [01;31m[KServoDegreeIncrease(SERVO_DOWN_CH, STEP)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:331:32:[m[K [01;31m[Kerror: [m[K‘[01m[KServoDegreeDecrease[m[K’ cannot be used as a function
+  331 |             [01;31m[KServoDegreeDecrease(SERVO_DOWN_CH, STEP)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/panTiltSubscriber.dir/build.make:76: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/panTiltSubscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

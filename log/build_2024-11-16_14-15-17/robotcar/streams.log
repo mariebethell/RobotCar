@@ -1,0 +1,25 @@
+[0.131s] Invoking command in '/home/pi/Git/RobotCar/build/robotcar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[0.773s] [ 33%] Built target motorDriverSubscriber
+[1.017s] [ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m
+[85.409s] [ 66%] [32m[1mLinking CXX executable panTiltSubscriber[0m
+[89.277s] /usr/bin/ld: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o: in function `PanTilt::PanTilt()':
+[89.281s] panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x40): undefined reference to `i2c_init(char*, unsigned char)'
+[89.301s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x4c): undefined reference to `i2c_writeReg(unsigned char, unsigned char)'
+[89.308s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x60): undefined reference to `PCA9685_setPWMFreq(float)'
+[89.322s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x6c): undefined reference to `PCA9685_setPWMFreq(float)'
+[89.325s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x70): undefined reference to `ServoUpDegree'
+[89.326s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x74): undefined reference to `ServoUpDegree'
+[89.327s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x84): undefined reference to `setServoDegree(unsigned char, unsigned char)'
+[89.328s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x88): undefined reference to `ServoDownDegree'
+[89.332s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x8c): undefined reference to `ServoDownDegree'
+[89.333s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTiltC2Ev[_ZN7PanTiltC5Ev]+0x9c): undefined reference to `setServoDegree(unsigned char, unsigned char)'
+[89.333s] /usr/bin/ld: CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o: in function `PanTilt::update(int)':
+[89.334s] panTiltNode.cpp:(.text._ZN7PanTilt6updateEi[_ZN7PanTilt6updateEi]+0x64): undefined reference to `ServoDegreeIncrease(unsigned char, unsigned char)'
+[89.334s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTilt6updateEi[_ZN7PanTilt6updateEi]+0x74): undefined reference to `ServoDegreeDecrease(unsigned char, unsigned char)'
+[89.335s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTilt6updateEi[_ZN7PanTilt6updateEi]+0x84): undefined reference to `ServoDegreeIncrease(unsigned char, unsigned char)'
+[89.335s] /usr/bin/ld: panTiltNode.cpp:(.text._ZN7PanTilt6updateEi[_ZN7PanTilt6updateEi]+0x94): undefined reference to `ServoDegreeDecrease(unsigned char, unsigned char)'
+[89.625s] collect2: error: ld returned 1 exit status
+[89.637s] gmake[2]: *** [CMakeFiles/panTiltSubscriber.dir/build.make:182: panTiltSubscriber] Error 1
+[89.640s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/panTiltSubscriber.dir/all] Error 2
+[89.657s] gmake: *** [Makefile:146: all] Error 2
+[89.666s] Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4

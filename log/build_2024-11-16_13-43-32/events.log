@@ -1,0 +1,536 @@
+[0.000000] (-) TimerEvent: {}
+[0.009824] (robotcar) JobQueued: {'identifier': 'robotcar', 'dependencies': OrderedDict()}
+[0.010768] (robotcar) JobStarted: {'identifier': 'robotcar'}
+[0.099326] (-) TimerEvent: {}
+[0.121302] (robotcar) JobProgress: {'identifier': 'robotcar', 'progress': 'cmake'}
+[0.132390] (robotcar) JobProgress: {'identifier': 'robotcar', 'progress': 'build'}
+[0.138718] (robotcar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/Git/RobotCar/build/robotcar', '--', '-j4', '-l4'], 'cwd': '/home/pi/Git/RobotCar/build/robotcar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/pi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1631'), ('SYSTEMD_EXEC_PID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2955'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pi/Git/RobotCar/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pi'), ('JOURNAL_STREAM', '8:28771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pi-desktop:@/tmp/.ICE-unix/1865,unix/pi-desktop:/tmp/.ICE-unix/1865'), ('INVOCATION_ID', '71e0f4f0859a4258ad7e5b59306c91c6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e05c77a8ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pi/Git/RobotCar/install/robotcar:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi/Git/RobotCar/build/robotcar'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/Git/RobotCar/install/robotcar:/opt/ros/iron')]), 'shell': False}
+[0.201446] (-) TimerEvent: {}
+[0.303936] (-) TimerEvent: {}
+[0.411490] (-) TimerEvent: {}
+[0.514262] (-) TimerEvent: {}
+[0.617300] (-) TimerEvent: {}
+[0.719632] (-) TimerEvent: {}
+[0.807651] (robotcar) StdoutLine: {'line': b'[ 33%] Built target motorDriverSubscriber\n'}
+[0.820000] (-) TimerEvent: {}
+[0.921885] (-) TimerEvent: {}
+[1.024082] (-) TimerEvent: {}
+[1.041326] (robotcar) StdoutLine: {'line': b'[ 66%] Built target panTiltSubscriber\n'}
+[1.127372] (-) TimerEvent: {}
+[1.178485] (robotcar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controllerNode\x1b[0m\n'}
+[1.227908] (-) TimerEvent: {}
+[1.330903] (-) TimerEvent: {}
+[1.396153] (robotcar) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/controllerNode.dir/src/controllerNode.cpp.o\x1b[0m\n'}
+[1.431663] (-) TimerEvent: {}
+[1.533929] (-) TimerEvent: {}
+[1.636228] (-) TimerEvent: {}
+[1.738263] (-) TimerEvent: {}
+[1.841984] (-) TimerEvent: {}
+[1.944494] (-) TimerEvent: {}
+[2.046043] (-) TimerEvent: {}
+[2.148804] (-) TimerEvent: {}
+[2.250681] (-) TimerEvent: {}
+[2.352605] (-) TimerEvent: {}
+[2.454305] (-) TimerEvent: {}
+[2.557756] (-) TimerEvent: {}
+[2.660373] (-) TimerEvent: {}
+[2.772375] (-) TimerEvent: {}
+[2.873715] (-) TimerEvent: {}
+[2.975069] (-) TimerEvent: {}
+[3.076978] (-) TimerEvent: {}
+[3.178490] (-) TimerEvent: {}
+[3.280161] (-) TimerEvent: {}
+[3.383777] (-) TimerEvent: {}
+[3.488077] (-) TimerEvent: {}
+[3.590946] (-) TimerEvent: {}
+[3.692256] (-) TimerEvent: {}
+[3.793928] (-) TimerEvent: {}
+[3.896058] (-) TimerEvent: {}
+[3.997255] (-) TimerEvent: {}
+[4.100253] (-) TimerEvent: {}
+[4.203967] (-) TimerEvent: {}
+[4.306671] (-) TimerEvent: {}
+[4.409014] (-) TimerEvent: {}
+[4.511744] (-) TimerEvent: {}
+[4.614992] (-) TimerEvent: {}
+[4.716558] (-) TimerEvent: {}
+[4.818252] (-) TimerEvent: {}
+[4.921805] (-) TimerEvent: {}
+[5.024557] (-) TimerEvent: {}
+[5.126563] (-) TimerEvent: {}
+[5.229618] (-) TimerEvent: {}
+[5.333620] (-) TimerEvent: {}
+[5.436480] (-) TimerEvent: {}
+[5.539462] (-) TimerEvent: {}
+[5.642429] (-) TimerEvent: {}
+[5.745907] (-) TimerEvent: {}
+[5.848248] (-) TimerEvent: {}
+[5.951199] (-) TimerEvent: {}
+[6.053497] (-) TimerEvent: {}
+[6.156723] (-) TimerEvent: {}
+[6.259208] (-) TimerEvent: {}
+[6.361763] (-) TimerEvent: {}
+[6.463668] (-) TimerEvent: {}
+[6.565633] (-) TimerEvent: {}
+[6.667901] (-) TimerEvent: {}
+[6.770513] (-) TimerEvent: {}
+[6.872646] (-) TimerEvent: {}
+[6.974242] (-) TimerEvent: {}
+[7.075538] (-) TimerEvent: {}
+[7.177044] (-) TimerEvent: {}
+[7.279260] (-) TimerEvent: {}
+[7.381697] (-) TimerEvent: {}
+[7.484178] (-) TimerEvent: {}
+[7.587747] (-) TimerEvent: {}
+[7.689046] (-) TimerEvent: {}
+[7.790394] (-) TimerEvent: {}
+[7.892250] (-) TimerEvent: {}
+[7.994281] (-) TimerEvent: {}
+[8.095879] (-) TimerEvent: {}
+[8.198034] (-) TimerEvent: {}
+[8.300448] (-) TimerEvent: {}
+[8.401885] (-) TimerEvent: {}
+[8.504432] (-) TimerEvent: {}
+[8.607011] (-) TimerEvent: {}
+[8.709877] (-) TimerEvent: {}
+[8.812378] (-) TimerEvent: {}
+[8.917594] (-) TimerEvent: {}
+[9.019849] (-) TimerEvent: {}
+[9.121801] (-) TimerEvent: {}
+[9.223502] (-) TimerEvent: {}
+[9.325101] (-) TimerEvent: {}
+[9.427010] (-) TimerEvent: {}
+[9.528704] (-) TimerEvent: {}
+[9.634069] (-) TimerEvent: {}
+[9.737068] (-) TimerEvent: {}
+[9.839521] (-) TimerEvent: {}
+[9.941231] (-) TimerEvent: {}
+[10.044811] (-) TimerEvent: {}
+[10.149092] (-) TimerEvent: {}
+[10.252993] (-) TimerEvent: {}
+[10.355113] (-) TimerEvent: {}
+[10.456674] (-) TimerEvent: {}
+[10.558658] (-) TimerEvent: {}
+[10.661100] (-) TimerEvent: {}
+[10.762673] (-) TimerEvent: {}
+[10.864830] (-) TimerEvent: {}
+[10.966486] (-) TimerEvent: {}
+[11.069743] (-) TimerEvent: {}
+[11.171484] (-) TimerEvent: {}
+[11.274438] (-) TimerEvent: {}
+[11.377420] (-) TimerEvent: {}
+[11.480363] (-) TimerEvent: {}
+[11.584171] (-) TimerEvent: {}
+[11.688170] (-) TimerEvent: {}
+[11.790669] (-) TimerEvent: {}
+[11.893875] (-) TimerEvent: {}
+[11.995735] (-) TimerEvent: {}
+[12.101846] (-) TimerEvent: {}
+[12.203850] (-) TimerEvent: {}
+[12.305754] (-) TimerEvent: {}
+[12.408790] (-) TimerEvent: {}
+[12.511167] (-) TimerEvent: {}
+[12.613247] (-) TimerEvent: {}
+[12.716484] (-) TimerEvent: {}
+[12.819049] (-) TimerEvent: {}
+[12.924733] (-) TimerEvent: {}
+[13.026594] (-) TimerEvent: {}
+[13.128042] (-) TimerEvent: {}
+[13.229877] (-) TimerEvent: {}
+[13.332822] (-) TimerEvent: {}
+[13.434492] (-) TimerEvent: {}
+[13.536243] (-) TimerEvent: {}
+[13.638666] (-) TimerEvent: {}
+[13.740266] (-) TimerEvent: {}
+[13.841817] (-) TimerEvent: {}
+[13.943681] (-) TimerEvent: {}
+[14.046343] (-) TimerEvent: {}
+[14.150023] (-) TimerEvent: {}
+[14.251178] (-) TimerEvent: {}
+[14.352603] (-) TimerEvent: {}
+[14.454330] (-) TimerEvent: {}
+[14.555906] (-) TimerEvent: {}
+[14.658166] (-) TimerEvent: {}
+[14.761349] (-) TimerEvent: {}
+[14.864617] (-) TimerEvent: {}
+[14.967383] (-) TimerEvent: {}
+[15.072096] (-) TimerEvent: {}
+[15.174228] (-) TimerEvent: {}
+[15.277200] (-) TimerEvent: {}
+[15.379655] (-) TimerEvent: {}
+[15.483746] (-) TimerEvent: {}
+[15.586629] (-) TimerEvent: {}
+[15.690052] (-) TimerEvent: {}
+[15.793567] (-) TimerEvent: {}
+[15.895452] (-) TimerEvent: {}
+[15.999037] (-) TimerEvent: {}
+[16.102888] (-) TimerEvent: {}
+[16.207635] (-) TimerEvent: {}
+[16.310207] (-) TimerEvent: {}
+[16.416925] (-) TimerEvent: {}
+[16.520063] (-) TimerEvent: {}
+[16.621810] (-) TimerEvent: {}
+[16.723418] (-) TimerEvent: {}
+[16.824991] (-) TimerEvent: {}
+[16.927568] (-) TimerEvent: {}
+[17.030553] (-) TimerEvent: {}
+[17.131922] (-) TimerEvent: {}
+[17.233200] (-) TimerEvent: {}
+[17.334895] (-) TimerEvent: {}
+[17.437197] (-) TimerEvent: {}
+[17.538765] (-) TimerEvent: {}
+[17.640537] (-) TimerEvent: {}
+[17.743453] (-) TimerEvent: {}
+[17.846511] (-) TimerEvent: {}
+[17.949492] (-) TimerEvent: {}
+[18.052251] (-) TimerEvent: {}
+[18.156525] (-) TimerEvent: {}
+[18.259197] (-) TimerEvent: {}
+[18.361669] (-) TimerEvent: {}
+[18.463273] (-) TimerEvent: {}
+[18.565411] (-) TimerEvent: {}
+[18.667085] (-) TimerEvent: {}
+[18.768567] (-) TimerEvent: {}
+[18.869991] (-) TimerEvent: {}
+[18.972539] (-) TimerEvent: {}
+[19.076021] (-) TimerEvent: {}
+[19.177868] (-) TimerEvent: {}
+[19.280423] (-) TimerEvent: {}
+[19.382325] (-) TimerEvent: {}
+[19.485794] (-) TimerEvent: {}
+[19.588469] (-) TimerEvent: {}
+[19.690503] (-) TimerEvent: {}
+[19.793436] (-) TimerEvent: {}
+[19.896639] (-) TimerEvent: {}
+[19.999425] (-) TimerEvent: {}
+[20.101222] (-) TimerEvent: {}
+[20.203656] (-) TimerEvent: {}
+[20.305858] (-) TimerEvent: {}
+[20.408412] (-) TimerEvent: {}
+[20.510921] (-) TimerEvent: {}
+[20.612332] (-) TimerEvent: {}
+[20.715729] (-) TimerEvent: {}
+[20.817257] (-) TimerEvent: {}
+[20.919206] (-) TimerEvent: {}
+[21.021489] (-) TimerEvent: {}
+[21.123628] (-) TimerEvent: {}
+[21.227177] (-) TimerEvent: {}
+[21.331469] (-) TimerEvent: {}
+[21.436177] (-) TimerEvent: {}
+[21.537807] (-) TimerEvent: {}
+[21.640454] (-) TimerEvent: {}
+[21.743394] (-) TimerEvent: {}
+[21.846984] (-) TimerEvent: {}
+[21.949944] (-) TimerEvent: {}
+[22.051585] (-) TimerEvent: {}
+[22.153034] (-) TimerEvent: {}
+[22.254322] (-) TimerEvent: {}
+[22.356426] (-) TimerEvent: {}
+[22.459077] (-) TimerEvent: {}
+[22.560847] (-) TimerEvent: {}
+[22.663142] (-) TimerEvent: {}
+[22.765303] (-) TimerEvent: {}
+[22.867755] (-) TimerEvent: {}
+[22.969845] (-) TimerEvent: {}
+[23.072338] (-) TimerEvent: {}
+[23.174142] (-) TimerEvent: {}
+[23.276666] (-) TimerEvent: {}
+[23.379244] (-) TimerEvent: {}
+[23.481838] (-) TimerEvent: {}
+[23.584234] (-) TimerEvent: {}
+[23.685714] (-) TimerEvent: {}
+[23.787321] (-) TimerEvent: {}
+[23.888557] (-) TimerEvent: {}
+[23.990092] (-) TimerEvent: {}
+[24.092262] (-) TimerEvent: {}
+[24.194127] (-) TimerEvent: {}
+[24.295896] (-) TimerEvent: {}
+[24.398430] (-) TimerEvent: {}
+[24.500112] (-) TimerEvent: {}
+[24.602484] (-) TimerEvent: {}
+[24.705198] (-) TimerEvent: {}
+[24.807503] (-) TimerEvent: {}
+[24.910043] (-) TimerEvent: {}
+[25.013265] (-) TimerEvent: {}
+[25.115051] (-) TimerEvent: {}
+[25.217274] (-) TimerEvent: {}
+[25.319188] (-) TimerEvent: {}
+[25.421348] (-) TimerEvent: {}
+[25.523950] (-) TimerEvent: {}
+[25.625812] (-) TimerEvent: {}
+[25.727906] (-) TimerEvent: {}
+[25.829642] (-) TimerEvent: {}
+[25.931331] (-) TimerEvent: {}
+[26.033249] (-) TimerEvent: {}
+[26.135364] (-) TimerEvent: {}
+[26.238653] (-) TimerEvent: {}
+[26.340288] (-) TimerEvent: {}
+[26.442709] (-) TimerEvent: {}
+[26.545648] (-) TimerEvent: {}
+[26.647808] (-) TimerEvent: {}
+[26.752931] (-) TimerEvent: {}
+[26.854599] (-) TimerEvent: {}
+[26.956165] (-) TimerEvent: {}
+[27.057590] (-) TimerEvent: {}
+[27.159313] (-) TimerEvent: {}
+[27.261793] (-) TimerEvent: {}
+[27.363874] (-) TimerEvent: {}
+[27.465247] (-) TimerEvent: {}
+[27.566692] (-) TimerEvent: {}
+[27.668147] (-) TimerEvent: {}
+[27.769780] (-) TimerEvent: {}
+[27.871778] (-) TimerEvent: {}
+[27.973632] (-) TimerEvent: {}
+[28.075718] (-) TimerEvent: {}
+[28.177346] (-) TimerEvent: {}
+[28.281907] (-) TimerEvent: {}
+[28.383405] (-) TimerEvent: {}
+[28.485098] (-) TimerEvent: {}
+[28.586579] (-) TimerEvent: {}
+[28.688212] (-) TimerEvent: {}
+[28.789640] (-) TimerEvent: {}
+[28.891350] (-) TimerEvent: {}
+[28.993017] (-) TimerEvent: {}
+[29.094591] (-) TimerEvent: {}
+[29.196267] (-) TimerEvent: {}
+[29.297698] (-) TimerEvent: {}
+[29.399299] (-) TimerEvent: {}
+[29.501091] (-) TimerEvent: {}
+[29.603319] (-) TimerEvent: {}
+[29.705876] (-) TimerEvent: {}
+[29.808430] (-) TimerEvent: {}
+[29.910187] (-) TimerEvent: {}
+[30.012600] (-) TimerEvent: {}
+[30.119438] (-) TimerEvent: {}
+[30.222928] (-) TimerEvent: {}
+[30.326767] (-) TimerEvent: {}
+[30.428427] (-) TimerEvent: {}
+[30.531702] (-) TimerEvent: {}
+[30.633396] (-) TimerEvent: {}
+[30.734865] (-) TimerEvent: {}
+[30.836184] (-) TimerEvent: {}
+[30.937728] (-) TimerEvent: {}
+[31.040157] (-) TimerEvent: {}
+[31.141867] (-) TimerEvent: {}
+[31.244286] (-) TimerEvent: {}
+[31.346653] (-) TimerEvent: {}
+[31.449510] (-) TimerEvent: {}
+[31.552549] (-) TimerEvent: {}
+[31.654335] (-) TimerEvent: {}
+[31.755829] (-) TimerEvent: {}
+[31.857761] (-) TimerEvent: {}
+[31.959426] (-) TimerEvent: {}
+[32.061637] (-) TimerEvent: {}
+[32.163899] (-) TimerEvent: {}
+[32.265924] (-) TimerEvent: {}
+[32.368636] (-) TimerEvent: {}
+[32.470992] (-) TimerEvent: {}
+[32.572322] (-) TimerEvent: {}
+[32.673890] (-) TimerEvent: {}
+[32.775730] (-) TimerEvent: {}
+[32.877267] (-) TimerEvent: {}
+[32.979386] (-) TimerEvent: {}
+[33.081177] (-) TimerEvent: {}
+[33.182760] (-) TimerEvent: {}
+[33.284386] (-) TimerEvent: {}
+[33.385913] (-) TimerEvent: {}
+[33.488269] (-) TimerEvent: {}
+[33.590223] (-) TimerEvent: {}
+[33.691740] (-) TimerEvent: {}
+[33.793138] (-) TimerEvent: {}
+[33.894751] (-) TimerEvent: {}
+[33.996366] (-) TimerEvent: {}
+[34.098034] (-) TimerEvent: {}
+[34.199613] (-) TimerEvent: {}
+[34.301659] (-) TimerEvent: {}
+[34.403100] (-) TimerEvent: {}
+[34.505513] (-) TimerEvent: {}
+[34.611312] (-) TimerEvent: {}
+[34.713458] (-) TimerEvent: {}
+[34.815374] (-) TimerEvent: {}
+[34.918125] (-) TimerEvent: {}
+[35.020266] (-) TimerEvent: {}
+[35.122973] (-) TimerEvent: {}
+[35.225211] (-) TimerEvent: {}
+[35.327455] (-) TimerEvent: {}
+[35.432070] (-) TimerEvent: {}
+[35.535364] (-) TimerEvent: {}
+[35.638278] (-) TimerEvent: {}
+[35.741515] (-) TimerEvent: {}
+[35.844843] (-) TimerEvent: {}
+[35.948570] (-) TimerEvent: {}
+[36.052136] (-) TimerEvent: {}
+[36.153795] (-) TimerEvent: {}
+[36.257932] (-) TimerEvent: {}
+[36.361803] (-) TimerEvent: {}
+[36.465278] (-) TimerEvent: {}
+[36.568571] (-) TimerEvent: {}
+[36.672658] (-) TimerEvent: {}
+[36.776877] (-) TimerEvent: {}
+[36.882196] (-) TimerEvent: {}
+[36.985970] (-) TimerEvent: {}
+[37.089701] (-) TimerEvent: {}
+[37.191377] (-) TimerEvent: {}
+[37.293811] (-) TimerEvent: {}
+[37.395336] (-) TimerEvent: {}
+[37.498297] (-) TimerEvent: {}
+[37.600017] (-) TimerEvent: {}
+[37.603686] (robotcar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[37.605302] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[37.606039] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[37.608132] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[37.609509] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[37.610699] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[37.611821] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[37.612605] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[37.616206] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[37.617725] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[37.621020] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1\x1b[m\x1b[K:\n'}
+[37.622607] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControllerNode::publishTwist()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[37.624024] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.625331] (robotcar) StderrLine: {'line': b'   56 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger, "Event type: %d\\n", this->event.type);\n'}
+[37.629271] (robotcar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.630628] (robotcar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[37.633456] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[37.635355] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[37.636977] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1\x1b[m\x1b[K:\n'}
+[37.638865] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:143:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[37.639954] (robotcar) StderrLine: {'line': b'  143 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[37.641852] (robotcar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.643215] (robotcar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[37.644962] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[37.646510] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[37.648154] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[37.652985] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[37.655883] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[37.657535] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[37.659364] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[37.660627] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[37.661688] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[37.663671] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1\x1b[m\x1b[K:\n'}
+[37.665649] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[37.668924] (robotcar) StderrLine: {'line': b'   56 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger, "Event type: %d\\n", this->event.type);\n'}
+[37.672132] (robotcar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.673232] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[37.674142] (robotcar) StderrLine: {'line': b'   56 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger, "Event type: %d\\n", this->event.type);\n'}
+[37.679720] (robotcar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.681626] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[37.687624] (robotcar) StderrLine: {'line': b'   56 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger, "Event type: %d\\n", this->event.type);\n'}
+[37.689569] (robotcar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.691111] (robotcar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[37.695497] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[37.698720] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[37.703107] (-) TimerEvent: {}
+[37.707630] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[37.715990] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[37.718638] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[37.720991] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[37.722622] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[37.724562] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[37.726022] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[37.727786] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[37.729526] (robotcar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:1\x1b[m\x1b[K:\n'}
+[37.731210] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[37.733003] (robotcar) StderrLine: {'line': b'   56 |                 RCLCPP_INFO(\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_logger, "Event type: %d\\n", this->event.type);\n'}
+[37.734623] (robotcar) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[37.736253] (robotcar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/Git/RobotCar/src/controllerNode.cpp:56:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[37.737550] (robotcar) StderrLine: {'line': b'   56 |                 RCLCPP_INFO(\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_logger, "Event type: %d\\n", this->event.type);\n'}
+[37.738513] (robotcar) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[37.803458] (-) TimerEvent: {}
+[37.905566] (-) TimerEvent: {}
+[38.007949] (-) TimerEvent: {}
+[38.109947] (-) TimerEvent: {}
+[38.212187] (-) TimerEvent: {}
+[38.314875] (-) TimerEvent: {}
+[38.416593] (-) TimerEvent: {}
+[38.518162] (-) TimerEvent: {}
+[38.619856] (-) TimerEvent: {}
+[38.722122] (-) TimerEvent: {}
+[38.823757] (-) TimerEvent: {}
+[38.925602] (-) TimerEvent: {}
+[39.028007] (-) TimerEvent: {}
+[39.130196] (-) TimerEvent: {}
+[39.232721] (-) TimerEvent: {}
+[39.335600] (-) TimerEvent: {}
+[39.437237] (-) TimerEvent: {}
+[39.538529] (-) TimerEvent: {}
+[39.640833] (-) TimerEvent: {}
+[39.743575] (-) TimerEvent: {}
+[39.845706] (-) TimerEvent: {}
+[39.949047] (-) TimerEvent: {}
+[40.050601] (-) TimerEvent: {}
+[40.152550] (-) TimerEvent: {}
+[40.254328] (-) TimerEvent: {}
+[40.355920] (-) TimerEvent: {}
+[40.458496] (-) TimerEvent: {}
+[40.560794] (-) TimerEvent: {}
+[40.663230] (-) TimerEvent: {}
+[40.765105] (-) TimerEvent: {}
+[40.866289] (-) TimerEvent: {}
+[40.967859] (-) TimerEvent: {}
+[41.069149] (-) TimerEvent: {}
+[41.170952] (-) TimerEvent: {}
+[41.273713] (-) TimerEvent: {}
+[41.377062] (-) TimerEvent: {}
+[41.479080] (-) TimerEvent: {}
+[41.580765] (-) TimerEvent: {}
+[41.682372] (-) TimerEvent: {}
+[41.784596] (-) TimerEvent: {}
+[41.886598] (-) TimerEvent: {}
+[41.987928] (-) TimerEvent: {}
+[42.089538] (-) TimerEvent: {}
+[42.191156] (-) TimerEvent: {}
+[42.292921] (-) TimerEvent: {}
+[42.395099] (-) TimerEvent: {}
+[42.497119] (-) TimerEvent: {}
+[42.600251] (-) TimerEvent: {}
+[42.702227] (-) TimerEvent: {}
+[42.803886] (-) TimerEvent: {}
+[42.905324] (-) TimerEvent: {}
+[43.007608] (-) TimerEvent: {}
+[43.109807] (-) TimerEvent: {}
+[43.212376] (-) TimerEvent: {}
+[43.314313] (-) TimerEvent: {}
+[43.416653] (-) TimerEvent: {}
+[43.518702] (-) TimerEvent: {}
+[43.620108] (-) TimerEvent: {}
+[43.721810] (-) TimerEvent: {}
+[43.824063] (-) TimerEvent: {}
+[43.926142] (-) TimerEvent: {}
+[44.027736] (-) TimerEvent: {}
+[44.131927] (-) TimerEvent: {}
+[44.233751] (-) TimerEvent: {}
+[44.335570] (-) TimerEvent: {}
+[44.437142] (-) TimerEvent: {}
+[44.539269] (-) TimerEvent: {}
+[44.644420] (-) TimerEvent: {}
+[44.747987] (-) TimerEvent: {}
+[44.850655] (-) TimerEvent: {}
+[44.953273] (-) TimerEvent: {}
+[45.055356] (-) TimerEvent: {}
+[45.157364] (-) TimerEvent: {}
+[45.259404] (-) TimerEvent: {}
+[45.362321] (-) TimerEvent: {}
+[45.466286] (-) TimerEvent: {}
+[45.569450] (-) TimerEvent: {}
+[45.671302] (-) TimerEvent: {}
+[45.774402] (-) TimerEvent: {}
+[45.878103] (-) TimerEvent: {}
+[45.980188] (-) TimerEvent: {}
+[46.082582] (-) TimerEvent: {}
+[46.185709] (-) TimerEvent: {}
+[46.287744] (-) TimerEvent: {}
+[46.390702] (-) TimerEvent: {}
+[46.490323] (robotcar) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controllerNode.dir/build.make:76: CMakeFiles/controllerNode.dir/src/controllerNode.cpp.o] Error 1\n'}
+[46.493683] (-) TimerEvent: {}
+[46.496114] (robotcar) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/controllerNode.dir/all] Error 2\n'}
+[46.516593] (robotcar) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[46.530086] (robotcar) CommandEnded: {'returncode': 2}
+[46.595268] (-) TimerEvent: {}
+[46.698562] (-) TimerEvent: {}
+[46.801709] (-) TimerEvent: {}
+[46.904544] (-) TimerEvent: {}
+[47.009275] (-) TimerEvent: {}
+[47.100647] (robotcar) JobEnded: {'identifier': 'robotcar', 'rc': 2}
+[47.109616] (-) TimerEvent: {}
+[47.117465] (-) EventReactorShutdown: {}

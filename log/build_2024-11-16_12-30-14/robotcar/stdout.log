@@ -1,0 +1,29 @@
+[ 33%] Built target motorDriverSubscriber
+[35m[1mConsolidate compiler generated dependencies of target panTiltSubscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable panTiltSubscriber[0m
+[ 66%] Built target panTiltSubscriber
+[35m[1mConsolidate compiler generated dependencies of target controllerNode[0m
+[100%] Built target controllerNode
+-- Install configuration: ""
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/motorDriverSubscriber
+-- Set runtime path of "/home/pi/Git/RobotCar/install/robotcar/lib/robotcar/motorDriverSubscriber" to ""
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/controllerNode
+-- Set runtime path of "/home/pi/Git/RobotCar/install/robotcar/lib/robotcar/controllerNode" to ""
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/panTiltSubscriber
+-- Set runtime path of "/home/pi/Git/RobotCar/install/robotcar/lib/robotcar/panTiltSubscriber" to ""
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/package_run_dependencies/robotcar
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/parent_prefix_path/robotcar
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/ament_prefix_path.sh
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/ament_prefix_path.dsv
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/path.sh
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/path.dsv
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.bash
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.sh
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.zsh
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.dsv
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.dsv
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/packages/robotcar
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/cmake/robotcarConfig.cmake
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/cmake/robotcarConfig-version.cmake
+-- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.xml

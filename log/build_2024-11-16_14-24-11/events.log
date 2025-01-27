@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.006221] (robotcar) JobQueued: {'identifier': 'robotcar', 'dependencies': OrderedDict()}
+[0.011372] (robotcar) JobStarted: {'identifier': 'robotcar'}
+[0.101835] (-) TimerEvent: {}
+[0.125879] (robotcar) JobProgress: {'identifier': 'robotcar', 'progress': 'cmake'}
+[0.136311] (robotcar) JobProgress: {'identifier': 'robotcar', 'progress': 'build'}
+[0.143936] (robotcar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/Git/RobotCar/build/robotcar', '--', '-j4', '-l4'], 'cwd': '/home/pi/Git/RobotCar/build/robotcar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/pi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1631'), ('SYSTEMD_EXEC_PID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2955'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pi/Git/RobotCar/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pi'), ('JOURNAL_STREAM', '8:28771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pi-desktop:@/tmp/.ICE-unix/1865,unix/pi-desktop:/tmp/.ICE-unix/1865'), ('INVOCATION_ID', '71e0f4f0859a4258ad7e5b59306c91c6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e05c77a8ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pi/Git/RobotCar/install/robotcar:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi/Git/RobotCar/build/robotcar'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/Git/RobotCar/install/robotcar:/opt/ros/iron')]), 'shell': False}
+[0.202416] (-) TimerEvent: {}
+[0.305334] (-) TimerEvent: {}
+[0.407959] (-) TimerEvent: {}
+[0.434646] (robotcar) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.508406] (-) TimerEvent: {}
+[0.611160] (-) TimerEvent: {}
+[0.712441] (-) TimerEvent: {}
+[0.814035] (-) TimerEvent: {}
+[0.915922] (-) TimerEvent: {}
+[1.018049] (-) TimerEvent: {}
+[1.119706] (-) TimerEvent: {}
+[1.221925] (-) TimerEvent: {}
+[1.325092] (-) TimerEvent: {}
+[1.427080] (-) TimerEvent: {}
+[1.529761] (-) TimerEvent: {}
+[1.631025] (-) TimerEvent: {}
+[1.732628] (-) TimerEvent: {}
+[1.834217] (-) TimerEvent: {}
+[1.935911] (-) TimerEvent: {}
+[2.037533] (-) TimerEvent: {}
+[2.140423] (-) TimerEvent: {}
+[2.157620] (robotcar) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[2.240707] (-) TimerEvent: {}
+[2.342416] (-) TimerEvent: {}
+[2.435479] (robotcar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.442736] (-) TimerEvent: {}
+[2.496416] (robotcar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.543266] (-) TimerEvent: {}
+[2.615305] (robotcar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.643515] (-) TimerEvent: {}
+[2.744663] (-) TimerEvent: {}
+[2.746445] (robotcar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.844988] (-) TimerEvent: {}
+[2.946324] (-) TimerEvent: {}
+[3.048100] (-) TimerEvent: {}
+[3.150440] (-) TimerEvent: {}
+[3.252777] (-) TimerEvent: {}
+[3.354273] (-) TimerEvent: {}
+[3.455639] (-) TimerEvent: {}
+[3.557240] (-) TimerEvent: {}
+[3.654363] (robotcar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[3.657454] (-) TimerEvent: {}
+[3.666496] (robotcar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.757868] (-) TimerEvent: {}
+[3.859539] (-) TimerEvent: {}
+[3.961349] (-) TimerEvent: {}
+[4.065175] (-) TimerEvent: {}
+[4.167151] (-) TimerEvent: {}
+[4.268680] (-) TimerEvent: {}
+[4.369759] (-) TimerEvent: {}
+[4.471090] (-) TimerEvent: {}
+[4.572759] (-) TimerEvent: {}
+[4.675371] (-) TimerEvent: {}
+[4.777079] (-) TimerEvent: {}
+[4.878327] (-) TimerEvent: {}
+[4.979550] (-) TimerEvent: {}
+[5.081077] (-) TimerEvent: {}
+[5.112089] (robotcar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.181287] (-) TimerEvent: {}
+[5.282809] (-) TimerEvent: {}
+[5.384667] (-) TimerEvent: {}
+[5.486577] (-) TimerEvent: {}
+[5.588537] (-) TimerEvent: {}
+[5.689785] (-) TimerEvent: {}
+[5.791354] (-) TimerEvent: {}
+[5.892710] (-) TimerEvent: {}
+[5.994798] (-) TimerEvent: {}
+[6.097121] (-) TimerEvent: {}
+[6.099545] (robotcar) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[6.197411] (-) TimerEvent: {}
+[6.299607] (-) TimerEvent: {}
+[6.402259] (-) TimerEvent: {}
+[6.503892] (-) TimerEvent: {}
+[6.606244] (-) TimerEvent: {}
+[6.708120] (-) TimerEvent: {}
+[6.745072] (robotcar) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[6.808289] (-) TimerEvent: {}
+[6.909736] (-) TimerEvent: {}
+[7.012292] (-) TimerEvent: {}
+[7.114956] (-) TimerEvent: {}
+[7.217818] (-) TimerEvent: {}
+[7.321554] (-) TimerEvent: {}
+[7.425254] (-) TimerEvent: {}
+[7.528141] (-) TimerEvent: {}
+[7.631389] (-) TimerEvent: {}
+[7.682854] (robotcar) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (target_include_directories):\n'}
+[7.684382] (robotcar) StderrLine: {'line': b'  Cannot specify include directories for target "robotcar" which is not built\n'}
+[7.685686] (robotcar) StderrLine: {'line': b'  by this project.\n'}
+[7.686703] (robotcar) StderrLine: {'line': b'\n'}
+[7.687630] (robotcar) StderrLine: {'line': b'\x1b[0m\n'}
+[7.731700] (-) TimerEvent: {}
+[7.833489] (-) TimerEvent: {}
+[7.934781] (-) TimerEvent: {}
+[8.036581] (-) TimerEvent: {}
+[8.045590] (robotcar) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.047789] (robotcar) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.048509] (robotcar) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.094479] (robotcar) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.101600] (robotcar) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[8.136826] (-) TimerEvent: {}
+[8.177954] (robotcar) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.223947] (robotcar) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.237086] (-) TimerEvent: {}
+[8.338406] (-) TimerEvent: {}
+[8.440355] (-) TimerEvent: {}
+[8.541472] (-) TimerEvent: {}
+[8.548316] (robotcar) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.550233] (robotcar) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.598217] (robotcar) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.609268] (robotcar) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.610432] (robotcar) StdoutLine: {'line': b'See also "/home/pi/Git/RobotCar/build/robotcar/CMakeFiles/CMakeOutput.log".\n'}
+[8.642091] (-) TimerEvent: {}
+[8.677579] (robotcar) StderrLine: {'line': b'gmake: *** [Makefile:349: cmake_check_build_system] Error 1\n'}
+[8.693521] (robotcar) CommandEnded: {'returncode': 2}
+[8.742513] (-) TimerEvent: {}
+[8.843937] (-) TimerEvent: {}
+[8.945658] (-) TimerEvent: {}
+[9.048416] (-) TimerEvent: {}
+[9.127957] (robotcar) JobEnded: {'identifier': 'robotcar', 'rc': 2}
+[9.145634] (-) EventReactorShutdown: {}

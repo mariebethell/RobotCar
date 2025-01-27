@@ -1,0 +1,44 @@
+[0.088s] Invoking command in '/home/pi/Git/RobotCar/build/robotcar': /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[0.952s] [ 33%] Built target motorDriverSubscriber
+[1.069s] [35m[1mConsolidate compiler generated dependencies of target panTiltSubscriber[0m
+[1.226s] [ 50%] [32mBuilding CXX object CMakeFiles/panTiltSubscriber.dir/src/panTiltNode.cpp.o[0m
+[4.933s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kint i2c_readReg(uint8_t, uint8_t*)[m[K’:
+[4.935s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:53:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kres[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.936s]    53 |     int [01;35m[Kres[m[K = 0;
+[4.937s]       |         [01;35m[K^~~[m[K
+[4.938s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:56:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.940s]    56 | [01;35m[K}[m[K
+[4.948s]       | [01;35m[K^[m[K
+[4.949s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:[m[K In function ‘[01m[Kint i2c_writeReg(uint8_t, uint8_t)[m[K’:
+[4.950s] [01m[K/home/pi/Git/RobotCar/src/panTiltNode.cpp:64:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.950s]    64 |     int res = 0, [01;35m[Ki[m[K;
+[4.951s]       |                  [01;35m[K^[m[K
+[43.239s] [ 66%] [32m[1mLinking CXX executable panTiltSubscriber[0m
+[46.018s] [ 66%] Built target panTiltSubscriber
+[46.208s] [ 83%] [32mBuilding CXX object CMakeFiles/controllerNode.dir/src/controllerNode.cpp.o[0m
+[71.876s] [100%] [32m[1mLinking CXX executable controllerNode[0m
+[73.722s] [100%] Built target controllerNode
+[73.789s] Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '0': /usr/bin/cmake --build /home/pi/Git/RobotCar/build/robotcar -- -j4 -l4
+[74.057s] Invoking command in '/home/pi/Git/RobotCar/build/robotcar': /usr/bin/cmake --install /home/pi/Git/RobotCar/build/robotcar
+[74.107s] -- Install configuration: ""
+[74.115s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/motorDriverSubscriber
+[74.118s] -- Installing: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/controllerNode
+[74.130s] -- Set runtime path of "/home/pi/Git/RobotCar/install/robotcar/lib/robotcar/controllerNode" to ""
+[74.131s] -- Installing: /home/pi/Git/RobotCar/install/robotcar/lib/robotcar/panTiltSubscriber
+[74.179s] -- Set runtime path of "/home/pi/Git/RobotCar/install/robotcar/lib/robotcar/panTiltSubscriber" to ""
+[74.185s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/package_run_dependencies/robotcar
+[74.186s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/parent_prefix_path/robotcar
+[74.188s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/ament_prefix_path.sh
+[74.189s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/ament_prefix_path.dsv
+[74.190s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/path.sh
+[74.190s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/environment/path.dsv
+[74.191s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.bash
+[74.201s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.sh
+[74.202s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.zsh
+[74.208s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/local_setup.dsv
+[74.211s] -- Installing: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.dsv
+[74.212s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/ament_index/resource_index/packages/robotcar
+[74.213s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/cmake/robotcarConfig.cmake
+[74.214s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/cmake/robotcarConfig-version.cmake
+[74.215s] -- Up-to-date: /home/pi/Git/RobotCar/install/robotcar/share/robotcar/package.xml
+[74.216s] Invoked command in '/home/pi/Git/RobotCar/build/robotcar' returned '0': /usr/bin/cmake --install /home/pi/Git/RobotCar/build/robotcar
